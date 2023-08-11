@@ -1,0 +1,12 @@
+1  # test option 1: Gaussians at specified locations
+150    # diameter 300 km, slow Gaussian balls under La Reunion
+-3.0   # max anomaly = -3% (slow)
+6371.  55.7130 -21.2290  # radius, lon, lat
+5871.  55.7130 -21.2290  # spaced by 500 km in depth
+5371.  55.7130 -21.2290
+4871.  55.7130 -21.2290
+4371.  55.7130 -21.2290
+3871.  55.7130 -21.2290
+3371.  55.7130 -21.2290
+2871.  55.7130 -21.2290
+0. 0. 0.

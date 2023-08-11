@@ -1,0 +1,5 @@
+7                      # geometry option: Plume conduits
+125                    # 1/e diameter = 100 km
+-3.0                   # amplitude in % # next: hotspot list of Mueller93 
+   0.00    -90.00  0 2900     # North pole # lon,lat,depth_min depthmax
+  -1.      -1.    -1. -1.  # line break hereafter!

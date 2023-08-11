@@ -1,0 +1,94 @@
+
+-------------
+2010/08/05
+-------------
+
+@LMU, assemblematrix.f needs to be compiled and run with ifort, on coredump
+or wherever the parallelized mpisolvetomo.f will run afterwards.
+ifort -o assemblematrix assemblematrix.f
+
+
+With gfortrtan, it does run but produces different results in each run,
+and very ill-conditioned matrices. There must be a memory leak or
+something of the kind. 
+
+((raydata and raymatrix, the programs preceeding assemblematrix, are still compile
+with gfortran. There seems to be no compatibility problem.))
+
+TODO: test possible gfortran fix for assemblematrix: explicit initialization, e.g. all arrays to zero.
+
+man gfortran
+
+   -finit-local-zero
+   -finit-integer=n
+   -finit-real=<zero|inf|-inf|nan>
+   -finit-logical=<true|false>
+   -finit-character=n
+       The -finit-local-zero option instructs the compiler to initialize
+       local "INTEGER", "REAL", and "COMPLEX" variables to zero, "LOGICAL"
+       variables to false, and "CHARACTER" variables to a string of null
+       bytes.  Finer-grained initialization options are provided by the
+       -finit-integer=n, -finit-real=<zero|inf|-inf|nan> (which also
+       initializes the real and imaginary parts of local "COMPLEX"
+       variables), -finit-logical=<true|false>, and -finit-character=n
+       (where n is an ASCII character value) options.  These options do
+       not initialize components of derived type variables, nor do they
+       initialize variables that appear in an "EQUIVALENCE" statement.
+       (This limitation may be removed in future releases).
+
+       Note that the -finit-real=nan option initializes "REAL" and
+       "COMPLEX" variables with a quiet NaN. 
+
+
+      ! 2010/08/05 K.S. Found that gfortran does not work, ifort does.
+      ! gfortran -std=legacy -o $target assemblematrix.f ! BUGGY!!!
+      ! ifort -o $target assemblematrix.f  ! works
+      ! Precautionry compile, Jens' advice, in case large common 
+      ! blocks/static are used.
+      ! ifort -mcmodel=large -shared-intel -o $target assemblematrix.f
+
+      ! TROUBLE TICKET K.S. 2010/08/05:
+      ! gfortran produces erratic runtime results, there seems to be
+      !  a memory issue.
+      ! gfortran -std=legacy -o $target assemblematrix.f
+      ! test case: newident = test.G10T.BB.USA10 (full BB global 
+      ! data set on old grid.)
+      ! gfortran produces a different matrix in every run, best seen 
+      ! in the final output line "Largest element of A'A="
+      ! Sometime output is so bad that program bails out.
+      ! Output of a few subsequent runs:
+      ! Largest element of A'A=   18.111338     , sqrt=   4.2557416    
+      ! Largest element of A'A=  1.20876095E+25 , sqrt=  3.47672386E+12
+      ! Largest element of A'A=  5.12861225E-41 , sqrt=  7.16143328E-21
+      ! Largest element of A'A=   10806.03     , sqrt=   103.9520   
+      ! Large or infinite ata in column       74784
+      ! Largest element of A'A=   0.0000000     , sqrt=   0.0000000  
+
+      ! ifort (with or without options -mcmodel=large -shared-intel)
+      ! seems to not have this problem and produces consistent results:
+      ! Largest element of A'A=   10806.03     , sqrt=   103.9520  
+
+
+-------------
+2010/04/08
+-------------
+g77 no longer present. gfortran works.
+gfortran -W -o assemblematrix assemblematrix.f  
+
+f77 does not work! gives errors.
+f77 -W -o assemblematrix assemblematrix.f
+
+ifort? need to set paths in .cshrc
+
+
+NOTE: use compile script
+~/FFINVERSION/INVERSION/Programs/scripts2run/INVrecompile.LMU
+
+to automatically place executables into <...>/Tomoland/bin/
+
+
+================================================
+
+2009 at LMU
+
+g77 -g -fbounds-check -fno-automatic -W -o assemblematrix assemblematrix.f

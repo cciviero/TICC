@@ -1,0 +1,124 @@
+
+--------------
+2010/08/25
+-------------
+
+gfortran -std=legacy -o $target resolutiontest.f
+Haven't tried running this lately but it does seem to compile.
+
+
+# 4a) $INV_SRC/resolutiontest/resolutiontest.f
+set fnam = $rtest
+cd $INV_SRC/$fnam
+set target = $INV_BIN/$fnam
+echo " "
+echo "Recompiling $fnam in $INV_SRC/$fnam"
+echo "Writing binary to $target"
+gfortran -std=legacy -o $target resolutiontest.f
+
+-------------------------------------
+
+Guust's original compile commands:
+
+271> cat makeresolutiontest
+# g77  -o resolutiontest resolutiontest.f
+# static complation needed on alhazen -static
+g77 -g -fbounds-check -fno-automatic -W -o resolutiontest resolutiontest.f
+
+================================================================
+
+2010/04/08
+Except for additional comments, added today, the version here in
+/home/sigloch/FFINVERSION/INVERSION/Programs/resolutiontest/
+
+and the last SVN version from Princeton 
+/home/sigloch/FFINVERSION/svn_WorkingCopy_PrincetonSVN20090429/INVERSION/trunk/Programs/resolutiontest/resolutiontest.f
+are identical.
+
+
+
+
+------------------------------------
+
+82> pwd
+/home/sigloch/FFINVERSION/svn_WorkingCopy_PrincetonSVN20090429/INVERSION/trunk/Programs/resolutiontest
+
+83> diff  resolutiontest.f /home/sigloch/FFINVERSION/INVERSION/Programs/resolutiontest/resolutiontest.f
+5a6,47
+>       !
+>       ! Compile:
+>       ! g77  -o resolutiontest resolutiontest.f
+>       ! Note: static complation needed on alhazen -static
+>       ! g77 -g -fbounds-check -fno-automatic -W -o resolutiontest resolutiontest.f
+>       ! 
+>       !
+>       ! Input:
+>       ! (1) vertices.<mesh_ident> : tetrahedral mesh file
+>       ! (2) aux.<drun_ident>  (real) data file, rhs, sigma normalized 
+>       ! (3) mat.<drun_ident>  kernel matrix file, binary
+>       !   where drun_ident is the ident of a previous (real data) 
+>       !   run, to which the resolution test is to correpond.
+>       !   aux.<drun_ident> is read for dimensional info only.
+>       ! Input files must be present locally (in runspace).
+>       !
+>       ! Output:
+>       ! (4) resolutiontest.<rt_ident> : log file, ascii
+>       ! (1) syn.<rt_ident> : synthetic resolution test
+>       !       model file (not normalized by prior 
+>       !       parameter uncertainties)
+>       ! (2) aux.<rt_ident> : the synthetic "data"
+>       !       corresponding to the syn file (with noise,
+>       !       if desired, sigma-normalized)
+>       !
+>       ! Example of command-line input (prompted)
+>       ! (cat in.resolutiontest.rt400_3.USA101_RT)
+>       !
+>       ! vertices.USA10         # mesh file
+>       ! USA101_RT              # drun_ident
+>       ! 2                      # Gaussians
+>       ! 200                    # half-width of Gaussian peaks 40
+>       ! 3                      # amplitude in %             1000
+>       ! -160 -40    8          # lonmin, lonmax, dlon
+>       ! 18   58      8         # latmin, latmax, dlat
+>       ! 3300 6300  600         # rmin,   rmax,   dr
+>       ! rt400_3.USA101_RT      # rt_ident (for syn)
+>       ! 1                      # noise y/n
+>       ! 0.6                    # noise std (i.e., 1/SNR)
+>       ! rt400_3.USA101_RT      # rt_ident2 (for aux. file)
+>       !                        # usually identical to rt_ident
+>  
+120c162
+<       ! zero the test model (inclusing corrections)
+---
+>       ! zero the test model (including corrections)
+194c236
+<         dmax=3.0*width
+---
+>         dmax=3.0*width  ! farther away than that, assume anomaly is negligible
+218c260
+<         do r=r2,r1,-dr
+---
+>         do r=r2,r1,-dr  ! from surface downward
+468a511,515
+>       ! Note K.S.: rhs = kernel_matrix*sol, where model vector sol is
+>       ! already scaled by prior parameter uncertainties. 
+>       ! rhs (in the case of real data) would correspond to the contents
+>       ! of the aux.<ident> file, i.e. data normalized by their 
+>       ! measurement uncertainties.
+564c611
+< ! open the synthetic data auxiliary file (binary format only)
+---
+> ! open the synthetic data auxiliary file (ascii)
+587a635,637
+>       ! ======================================================
+> 
+> 
+589a640
+>       ! Forward prediction (matrix multiplication)
+600a652,653
+>       ! this is the mat.<ident> assembled kernel matrix file,
+>       ! whose header contains some dimensional info (ncol,krow, etc.)
+633a687,688
+>       ! --------------------------------------------------
+> 
+84> 

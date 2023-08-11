@@ -1,0 +1,10 @@
+echo 'compiling mpisolvetomo...'
+#mpif90.openmpi -finit-local-zero -O2  -std=legacy -o mpisolvetomo mpisolvetomo.f
+#mpif90.openmpi -finit-local-zero -std=legacy -o mpisolvetomo mpisolvetomo.f
+#mpif90.openmpi -std=legacy -o mpisolvetomo mpisolvetomo.f
+
+# FLAGS:
+# -finit-local-zero: initialize local INTEGER, REAL, and COMPLEX variables to zero, LOGICAL variables to false, and CHARACTER variables to a string of null bytes.
+# mcmodel=large: Generate code for the large model: This model makes no assumptions about addresses and sizes of sections.
+# O2: performs nearly all supported optimizations that do not involve a space-speed tradeoff.
+mpif90.openmpi -finit-local-zero -mcmodel=large -std=legacy -O2 -o mpisolvetomov2 mpisolvetomo_v2.f

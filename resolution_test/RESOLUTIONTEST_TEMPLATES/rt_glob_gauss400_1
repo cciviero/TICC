@@ -1,0 +1,6 @@
+2                      # Gaussians
+200                    # half-width of Gaussian peaks 400
+3                      # amplitude in %             1000
+-180 180     8         # lonmin, lonmax, dlon
+-88  88      8         # latmin, latmax, dlat
+2700 6300  600         # rmin,   rmax,   dr

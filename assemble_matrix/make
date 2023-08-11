@@ -1,0 +1,10 @@
+echo "compiling assemblematrix..."
+
+gfortran -fbounds-check -fno-automatic -W -finit-local-zero -std=legacy -o assemblematrix assemblematrix.f
+
+echo ">>>>> gfortran compiler produces erratic output!!!!"
+echo ">>>>> ifort -mcmodel=large -shared-intel -o assemblematrix assemblematrix.f"
+
+# mpifort -std=legacy -O2 -o assemblematrix assemblematrix.f
+# echo ">>>> You were using mpifort instead of gfortran (produces erratic outpout) compiler!"
+# echo ">>>> DONE!"

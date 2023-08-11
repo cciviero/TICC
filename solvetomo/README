@@ -1,0 +1,67 @@
+# Compile comands:
+
+# 4) mpisolvetomo 
+# set mpist = mpisolvetomo
+set fnam = $mpist
+cd $INV_SRC/$fnam
+set target = $INV_BIN/$fnam
+echo " "
+echo "Recompiling $fnam in $INV_SRC/$fnam"
+echo "Writing binary to $target"
+# mpif90 -o $target mpisolvetomo.f
+mpif90.openmpi -o $target mpisolvetomo.f
+
+# Then to run:
+# mpirun.openmpi -machinefile MACHINEFILE.coredump -np 2 $bin < $infile
+
+# 511> cat MACHINEFILE.coredump 
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+# coredump
+
+#--------- Comments on MPI at LMU --------------
+# on coredump/holodeck/64 bit machines
+# default is Intel MPI compiler (call: mpif77, mpif90, mpiifort)
+# to run: mpirun
+# mpif77 -o $target mpisolvetomo.f
+# mpirun -np 2 $bin < $infile | tee $logfile
+# This compiles but does not run, since Guust hardcoded the mpifile:
+# include "../includes/mpif.h"  ! Guusts Princeton implementation
+# That implementation seems to be the MPICH mpi, since a thus compiled
+# code can be run using mpirun.mpich
+# mpirun.mpich -machinefile MACHINEFILE.coredump -np 2 $bin < $infile
+#
+# But the real solution is to use the local mpif.h file by replacing 
+# the include line to read:
+#      include "mpif.h"                 ! choose the locally appropriate mpi
+# Now it runs for example with the combination:
+# mpif77 -o $target mpisolvetomo.f 
+# AND 
+# mpirun -machinefile MACHINEFILE.coredump -np 2 $bin < $infile
+# OR:
+# mpif77.openmpi -o $target mpisolvetomo.f
+# AND
+# mpirun.openmpi -machinefile MACHINEFILE.coredump -np 2 $bin < $infile
+# and probably every other combination.
+# -check option apparently needs the Intel Trace Collector
+
+# MPI compile commands on Princeton alhazen:
+# mpif77 -opt_report_file opt_report.txt -fpe3 -check bounds -warn truncated_source -debug variable_locations  -o mpisolvetomo mpisolvetomo.f
+# LMU: choice of mpiifort, mpif77, mpif90
+# Most or all other options are not recognized at LMU
+#--------- Comments on MPI at LMU --------------
+
+

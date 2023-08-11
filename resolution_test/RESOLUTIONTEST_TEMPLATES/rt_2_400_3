@@ -1,0 +1,31 @@
+      ! vertices.USA10         # mesh file
+      ! USA101_RT              # drun_ident
+      ! 2                      # Gaussians
+      ! 200                    # half-width of Gaussian peaks 40
+      ! 3                      # amplitude in %             1000
+      ! -160 -40    8          # lonmin, lonmax, dlon
+      ! 18   58      8         # latmin, latmax, dlat
+      ! 3300 6300  600         # rmin,   rmax,   dr
+      ! rt400_3.USA101_RT      # rt_ident (for syn)
+      ! 1                      # noise y/n
+      ! 0.6                    # noise std (i.e., 1/SNR)
+      ! rt400_3.USA101_RT      # rt_ident2 (for aux. file)
+      !                        # usually identical to rt_ident
+
+
+
+==================================== 400km
+ Other:
+ 11=generate dT values from user-provided model
+ Give test option:
+2
+ Give 1/e width of Gaussian peak in km:
+400
+ Give amplitude of maximum in %:
+3
+ Give min, max longitude and spacing (deg):
+-167,167,15
+ Give min,max latitude and spacing :
+-78,78,15
+ Give min,max radius and spacing (km):
+3300,6300,600

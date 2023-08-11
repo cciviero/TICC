@@ -1,0 +1,24 @@
+
+README for directory
+/data/jingjie/sigloch/INVERSION/Programs/meshing_distmesh
+
+--------------
+
+distmesh/ (Matlab package by Persson & Strang, SIAM Review 2004)
+was copied to here (/data/jingjie/sigloch/INVERSION/Programs/meshing_distmesh)
+from its original location:
+
+cp -r /home2/sigloch/SoftwareUsed/Matlab_FreeLicense/DistMesh_Automatic3d_Tetrahedral_Meshes/distmesh/ .
+
+--------------
+
+makemymesh.m
+was copied over from
+/raid/Private/sigloch/testdistmesh/
+
+and then modified/generalized locally!
+
+
+
+
+
