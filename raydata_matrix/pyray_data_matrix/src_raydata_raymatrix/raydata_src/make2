@@ -1,0 +1,4 @@
+echo "compiling raydata.f ...."
+gfortran -std=legacy -o raydata2 -g raytracesubs2.f azdel.f ellip_blnk.f90 ellip.f libsun.f libtau.f raydata2.f
+echo "compiling selectISC.f ...."
+gfortran -std=legacy -o selectISC selectISC.f
