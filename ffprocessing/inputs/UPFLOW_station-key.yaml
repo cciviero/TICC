@@ -1,0 +1,92 @@
+
+obs_DEPAS:
+  call_key: 'OBS'
+  # master_path : '/data/maria/UPFLOW/mseed_with_skew'
+  master_path : '/data/UPFLOW/_data_/mseed'
+  # path_structure : f'{master_path}/{sta}/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  path_structure : f'{master_path}/{sta}/mseed/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  sta_cha : ['HH1', 'HH2', 'HHZ', 'HDH']
+  network : '8J'
+  location : ''
+  years : [2021, 2022]
+  instrument_correction : True
+  response_hydrophone :  f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+  response_seismometer : f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+
+obs_DEPAS_250:
+  call_key: 'OBS'
+  # master_path : '/data/maria/UPFLOW/mseed_with_skew'
+  master_path : '/data/UPFLOW/_data_/mseed'
+  # path_structure : f'{master_path}/{sta}/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  path_structure : f'{master_path}/{sta}/mseed/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  sta_cha : ['CH1', 'CH2', 'CHZ', 'CDH']
+  network : '8J'
+  location : ''
+  years : [2021, 2022]
+  instrument_correction : True
+  response_hydrophone :  f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+  response_seismometer : f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+
+obs_DIAS:
+  call_key: 'OBS'
+  # master_path : '/data/maria/UPFLOW/mseed_with_skew'
+  master_path : '/data/UPFLOW/_data_/mseed'
+  # path_structure : f'{master_path}/{sta}/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  path_structure : f'{master_path}/{sta}/mseed/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  sta_cha : ['CH1', 'CH2', 'CHZ', 'CDH']
+  network : '8J'
+  location : ''
+  years : [2021, 2022]
+  instrument_correction : True
+  response_hydrophone :  f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+  response_seismometer : f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+
+# obs_IDL:
+#   call_key: 'OBS'
+#   master_path : '/data/UPFLOW'
+#   path_structure : f'{master_path}/_data_/mseed/{sta}/01-DATA-DAY/{cha}/{net}.{sta}.{loc}.{cha}.D.{year}.{month}.{day}'
+#   sta_cha : ['HDH', 'CH1', 'CH2', 'CHZ']
+#   network : '8J'
+#   location : ''
+#   years : [2021, 2022]
+#   instrument_correction : True
+#   response_seismometer : f'{master_path}/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+#   response_hydrophone : f'{master_path}/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+
+# obs_IDL_fiber:
+#   call_key: 'OBS'
+#   master_path : '/data/UPFLOW'
+#   path_structure : f'{master_path}/_data_/mseed/{sta}/01-DATA-DAY/{cha}/{net}.{sta}.{loc}.{cha}.D.{year}.{month}.{day}'
+#   sta_cha : ['CDH', 'CN1', 'CN2', 'CNZ']
+#   network : '8J'
+#   location : ''
+#   years : [2021, 2022]
+#   instrument_correction : True
+#   response_seismometer : f'{master_path}/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+#   response_hydrophone : f'{master_path}/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+
+# obs_ROA:
+#  call_key: 'OBS'
+#  master_path : '/data/UPFLOW'
+#  path_structure : f'{master_path}/_data_/mseed/{sta}/mseed-daily/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+#  sta_cha : ['BDH', 'BHZ', 'BH1', 'BH2']
+#  network : '8J'
+#  location : ''
+#  years : [2021, 2022]
+#  instrument_correction : True
+#  response_hydrophone :  f'{master_path}/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+#  response_seismometer : f'{master_path}/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+
+obs_GEOMAR:
+  call_key: 'OBS'
+  # master_path : '/data/maria/UPFLOW/mseed_with_skew'
+  master_path : '/data/UPFLOW/_data_/mseed'
+  # path_structure : f'{master_path}/{sta}/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  path_structure : f'{master_path}/{sta}/mseed/{net}.{sta}..{cha}.D.{year}.{month}.{day}'
+  sta_cha : ['HDH', 'HHZ', 'HH1', 'HH2']
+  network : '8J'
+  location : ''
+  years : [2021, 2022]
+  instrument_correction : True
+  response_hydrophone :  f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
+  response_seismometer : f'/data/UPFLOW/_input_/resp/combined_resp/resp/RESP.{net}.{sta}.{loc}.{cha}'
