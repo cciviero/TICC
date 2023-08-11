@@ -1,6 +1,0 @@
-echo "compiling raymatrix.f..."
-gfortran -std=legacy -O2 -o raymatrix raymatrix.f
-echo "compiling mat2asc.f..."
-gfortran -std=legacy -o mat2asc mat2asc.f 
-echo "compiling mat2bin.f..."
-gfortran -std=legacy -o mat2bin mat2bin.f 
