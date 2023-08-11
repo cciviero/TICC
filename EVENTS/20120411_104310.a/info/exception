@@ -1,0 +1,5519 @@
+
+20120411_104310.a
+availability -- EMSC -- The current client does not have a station service.
+availability -- GEONET -- No data available for request.
+Detailed response of server:
+
+
+availability -- ISC -- The current client does not have a station service.
+availability -- NCEDC -- No FDSN services could be discovered at 'http://service.ncedc.org'. This could be due to a temporary service outage or an invalid FDSN service address.
+availability -- RASPISHAKE -- No data available for request.
+Detailed response of server:
+
+
+availability -- SCEDC -- No data available for request.
+Detailed response of server:
+
+
+availability -- TEXNET -- No data available for request.
+Detailed response of server:
+
+
+availability -- USGS -- The current client does not have a station service.
+IPGP -- waveform -- G.ECH.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.A803..HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.A807..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 1M.D15.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 1M.D16.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 1M.D32.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+USP -- waveform -- IU.ANTO.00.BHZ -- The current client does not have a dataselect service.
+USP -- waveform -- IU.ANTO.10.BHZ -- The current client does not have a dataselect service.
+USP -- waveform -- G.TAM.00.BHZ -- The current client does not have a dataselect service.
+UIB-NORSAR -- waveform -- NO.ARA1.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+USP -- waveform -- IU.KEV.00.BHZ -- The current client does not have a dataselect service.
+UIB-NORSAR -- waveform -- NO.AKN.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 1M.D34.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.ANTB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.A816..HHZ -- No data available for request.
+Detailed response of server:
+
+
+USP -- waveform -- IU.KEV.10.BHZ -- The current client does not have a dataselect service.
+NOA -- waveform -- HA.ATAL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- AB.GANJ..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- AB.QZX..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HA.ACOR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- BE.BEBN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- AB.ZKT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- BE.BEBN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- AB.GANJ..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- AB.ZKT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- AB.QZX..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- BE.BOST..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- 4C.KEA00.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- BE.BOST..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- BE.RCHB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- BE.RCHB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+LMU -- waveform -- BW.CHKA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.BCA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ICGC -- waveform -- CA.CGAR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- AC.BCI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.BLCB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- AC.LSK..HHZ -- No data available for request.
+Detailed response of server:
+
+
+LMU -- waveform -- BW.GRC1..EHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.BNGB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- AC.PHP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.BODT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- AC.VLO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.ARCR..EHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.CANT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ICGC -- waveform -- CA.POBL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- CH.FIESA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- CH.FIESA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.CEYT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HA.MAKR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.ARCR..SHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.CHBY..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.BRJN..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A25.999603&endtime=2012-04-11T11%3A00%3A25.999603&network=CR&station=BRJN&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:09.278033
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.BRJN..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A25.999603&endtime=2012-04-11T11%3A00%3A25.999603&network=CR&station=BRJN&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:09.279567
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.BRJN..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A25.999603&endtime=2012-04-11T11%3A00%3A25.999603&network=CR&station=BRJN&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:09.354266
+Service Version:
+1.1.1
+LMU -- waveform -- BW.MASC..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.BRJN..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A25.999603&endtime=2012-04-11T11%3A00%3A25.999603&network=CR&station=BRJN&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:09.400013
+Service Version:
+1.1.1
+LMU -- waveform -- BW.MGBB..EHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.CORM..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.DBRK..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A07.132659&endtime=2012-04-11T11%3A00%3A07.132659&network=CR&station=DBRK&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:09.652313
+Service Version:
+1.1.1
+ODC -- waveform -- CR.DBRK..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A07.132659&endtime=2012-04-11T11%3A00%3A07.132659&network=CR&station=DBRK&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:09.671962
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.DBRK..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A07.132659&endtime=2012-04-11T11%3A00%3A07.132659&network=CR&station=DBRK&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:09.699343
+Service Version:
+1.1.1
+ODC -- waveform -- CR.DBRK..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A07.132659&endtime=2012-04-11T11%3A00%3A07.132659&network=CR&station=DBRK&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:09.758262
+Service Version:
+1.1.1
+NOA -- waveform -- HA.MRKA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.HVAR..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A14.348584&endtime=2012-04-11T11%3A00%3A14.348584&network=CR&station=HVAR&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.098303
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.HVAR..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A14.348584&endtime=2012-04-11T11%3A00%3A14.348584&network=CR&station=HVAR&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:10.117683
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.HVAR..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A14.348584&endtime=2012-04-11T11%3A00%3A14.348584&network=CR&station=HVAR&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.122095
+Service Version:
+1.1.1
+ODC -- waveform -- CR.HVAR..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A14.348584&endtime=2012-04-11T11%3A00%3A14.348584&network=CR&station=HVAR&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:10.184889
+Service Version:
+1.1.1
+INGV -- waveform -- GU.GBOS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.KALN..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A16.947474&endtime=2012-04-11T11%3A00%3A16.947474&network=CR&station=KALN&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.456036
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.KALN..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A16.947474&endtime=2012-04-11T11%3A00%3A16.947474&network=CR&station=KALN&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.503073
+Service Version:
+1.1.1
+KOERI -- waveform -- KO.CUKT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.KALN..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A16.947474&endtime=2012-04-11T11%3A00%3A16.947474&network=CR&station=KALN&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:10.562361
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.KALN..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A16.947474&endtime=2012-04-11T11%3A00%3A16.947474&network=CR&station=KALN&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:10.578823
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.KIJV..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A15.240542&endtime=2012-04-11T11%3A00%3A15.240542&network=CR&station=KIJV&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.593245
+Service Version:
+1.1.1
+KOERI -- waveform -- KO.DALY..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.KIJV..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A15.240542&endtime=2012-04-11T11%3A00%3A15.240542&network=CR&station=KIJV&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.796571
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.KIJV..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A15.240542&endtime=2012-04-11T11%3A00%3A15.240542&network=CR&station=KIJV&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:10.874834
+Service Version:
+1.1.1
+BGR -- waveform -- GR.GEB5..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.MORI..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A17.812732&endtime=2012-04-11T11%3A00%3A17.812732&network=CR&station=MORI&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:10.967449
+Service Version:
+1.1.1
+ODC -- waveform -- CR.KIJV..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A15.240542&endtime=2012-04-11T11%3A00%3A15.240542&network=CR&station=KIJV&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:10.96906
+Service Version:
+1.1.1
+ODC -- waveform -- CR.MORI..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A17.812732&endtime=2012-04-11T11%3A00%3A17.812732&network=CR&station=MORI&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.987799
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.MORI..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A17.812732&endtime=2012-04-11T11%3A00%3A17.812732&network=CR&station=MORI&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:10.992014
+Service Version:
+1.1.1
+ODC -- waveform -- CR.MORI..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A17.812732&endtime=2012-04-11T11%3A00%3A17.812732&network=CR&station=MORI&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.018911
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.NVLJ..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A21.554552&endtime=2012-04-11T11%3A00%3A21.554552&network=CR&station=NVLJ&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.045829
+Service Version:
+1.1.1
+ODC -- waveform -- CR.NVLJ..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A21.554552&endtime=2012-04-11T11%3A00%3A21.554552&network=CR&station=NVLJ&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.189818
+Service Version:
+1.1.1
+KOERI -- waveform -- KO.DAT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.NVLJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A21.554552&endtime=2012-04-11T11%3A00%3A21.554552&network=CR&station=NVLJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.259125
+Service Version:
+1.1.1
+BGR -- waveform -- GR.GEC2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.NVLJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A21.554552&endtime=2012-04-11T11%3A00%3A21.554552&network=CR&station=NVLJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.376489
+Service Version:
+1.1.1
+ODC -- waveform -- CR.OZLJ..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A20.162245&endtime=2012-04-11T11%3A00%3A20.162245&network=CR&station=OZLJ&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.378686
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.OZLJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A20.162245&endtime=2012-04-11T11%3A00%3A20.162245&network=CR&station=OZLJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.384044
+Service Version:
+1.1.1
+ODC -- waveform -- CR.OZLJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A20.162245&endtime=2012-04-11T11%3A00%3A20.162245&network=CR&station=OZLJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.396099
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.OZLJ..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A20.162245&endtime=2012-04-11T11%3A00%3A20.162245&network=CR&station=OZLJ&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.401516
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.PTJ..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.536050&endtime=2012-04-11T11%3A00%3A18.536050&network=CR&station=PTJ&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.452335
+Service Version:
+1.1.1
+ODC -- waveform -- CR.PTJ..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.536050&endtime=2012-04-11T11%3A00%3A18.536050&network=CR&station=PTJ&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.558603
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.PTJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.536050&endtime=2012-04-11T11%3A00%3A18.536050&network=CR&station=PTJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.624012
+Service Version:
+1.1.1
+KOERI -- waveform -- KO.DKL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.PTJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.536050&endtime=2012-04-11T11%3A00%3A18.536050&network=CR&station=PTJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.722234
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.RIC..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A11.946216&endtime=2012-04-11T11%3A00%3A11.946216&network=CR&station=RIC&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.724053
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.RIC..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A11.946216&endtime=2012-04-11T11%3A00%3A11.946216&network=CR&station=RIC&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.751533
+Service Version:
+1.1.1
+ODC -- waveform -- CR.RIC..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A11.946216&endtime=2012-04-11T11%3A00%3A11.946216&network=CR&station=RIC&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:11.759373
+Service Version:
+1.1.1
+ODC -- waveform -- CR.RIC..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A11.946216&endtime=2012-04-11T11%3A00%3A11.946216&network=CR&station=RIC&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.772267
+Service Version:
+1.1.1
+NOA -- waveform -- HC.THT2..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.RIY..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A23.584962&endtime=2012-04-11T11%3A00%3A23.584962&network=CR&station=RIY&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.825381
+Service Version:
+1.1.1
+ODC -- waveform -- CR.RIY..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A23.584962&endtime=2012-04-11T11%3A00%3A23.584962&network=CR&station=RIY&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:11.923845
+Service Version:
+1.1.1
+UIB-NORSAR -- waveform -- NO.ARE0.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.RIY..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A23.584962&endtime=2012-04-11T11%3A00%3A23.584962&network=CR&station=RIY&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:12.011456
+Service Version:
+1.1.1
+UIB-NORSAR -- waveform -- NO.BRBA.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.EDRB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.RIY..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A23.584962&endtime=2012-04-11T11%3A00%3A23.584962&network=CR&station=RIY&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:12.139333
+Service Version:
+1.1.1
+UIB-NORSAR -- waveform -- NO.HSPA1..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.ELL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.UDBI..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.141969&endtime=2012-04-11T11%3A00%3A18.141969&network=CR&station=UDBI&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:12.26411
+Service Version:
+1.1.1
+ODC -- waveform -- CR.UDBI..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.141969&endtime=2012-04-11T11%3A00%3A18.141969&network=CR&station=UDBI&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:31:12.377226
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.UDBI..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.141969&endtime=2012-04-11T11%3A00%3A18.141969&network=CR&station=UDBI&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:12.403001
+Service Version:
+1.1.1
+UIB-NORSAR -- waveform -- NO.HSPA3..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NO.HSPA2..HHZ -- No data available for request.
+Detailed response of server:
+
+
+LMU -- waveform -- BW.MZEK..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.STON..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.STON..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.UDBI..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A18.141969&endtime=2012-04-11T11%3A00%3A18.141969&network=CR&station=UDBI&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:31:12.510474
+Service Version:
+1.1.1
+ORFEUS -- waveform -- CR.STON..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.STON..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NO.HSPA4..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NO.HSPA5..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NO.JMIC.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- CR.ZAG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NO.NAO01.10.SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NO.NAO01.10.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- CR.ZAG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- DZ.OKGL.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- DZ.OKGL.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.BIGH.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.BIGH.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NL.GUR1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.EZN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+LMU -- waveform -- BW.RMOA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- GU.REMY..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- GU.REMY..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.DRUM.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.GEDZ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 4C.KEB02..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 4C.KEB04..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 4C.KEB05..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.DRUM.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.GULA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.EDI.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR01..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 4C.KEB06..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.BCI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.EDMD.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.EDI.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.BCI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR02..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- GU.SARM..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.ELSH.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.EDMD.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.ELSH.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.IKL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR03..SHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.ILIC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 4C.KEB10..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- CH.SGT01..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR04..SHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.KAMT..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.KBN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.FOEL.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 4C.KES20..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.KARA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.FOEL.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 4C.KES27..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 5T.IA001..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- CH.SGT02..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.KBN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR06..SHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR05..SHZ -- No data available for request.
+Detailed response of server:
+
+
+LMU -- waveform -- BW.SCE..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.GAL1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.KAVV..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.GAL1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- GU.TRAV..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- CH.SGT03..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR07..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- CH.SGT04..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.PHP..BHZ -- No data available for request.
+Detailed response of server:
+
+
+LMU -- waveform -- BW.UH2..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.GDLE.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR08..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.GDLE.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- GU.TRAV..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.LSK..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR09..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- CH.SGT05..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.HLM1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.PUK..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.PHP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.HLM1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR09..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.HMNX.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.KIZT..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.HMNX.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.HPK.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.HPK.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.BUR33..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 5T.IA009..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.KONT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.SRN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.INVG.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.IOMK.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.HTL.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.HTL.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.INVG.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.TPE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.IOMK.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.VLO..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.TIR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.KPL.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.KPL.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 5T.IA011..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.LBWR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 5T.IAD01..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.LBWR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- AC.VLO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 5T.IAD18..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 5T.IAD33..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.KULU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- BE.RCHB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.CIOR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.LMK.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.LMK.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.GTTG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.GTTG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.ARVD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.ARVD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 8A.PW02..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.CIOR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CA.CGAR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.HAN3..EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.HAN0..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.MONM..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.MONM..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.LFK..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.OLDB.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.OLDB.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CA.POBL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CH.FIESA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CH.FIESA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ETH -- waveform -- LE.GUT.00.EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A44.051739&endtime=2012-04-11T11%3A00%3A44.051739&network=LE&station=GUT&location=00&channel=EHZ
+Request Submitted:
+2023-01-18T04:31:22.217625
+Service Version:
+1.1.1
+ODC -- waveform -- GB.STNC.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.STNC.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.STRD.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.STRD.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.MERS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- 8A.PW14..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.MRMT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.SWN1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.JAVC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.SWN1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.RAST..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.JAVC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.WACR.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.WACR.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GB.WLF1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GB.WLF1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.UBR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- GO.CHVG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- GO.CHVG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.SARI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.CHVC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- GR.UBR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.CHVC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.GOPC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.GOPC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.DPC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- HS.EBSD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.JAVC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NO.NC605.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- HS.GWBE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.JAVC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.KHC..SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- HS.HECH..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.KHC..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.KRLC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.KRLC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.KRUC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- HS.RIED..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.KRUC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- HF.HFC2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.KRLC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.MORC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- HF.HFC2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.MORC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BAVS..EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BHOF..EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BHOF..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.NKC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.BRES..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.PRU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BKLB..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.OKC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.SVRC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BKLB..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.BRIS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.BRIS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- CZ.PRU..EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BRHE..EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.OKC..SHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.GIRR..SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BRHE..SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BTEZ..EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BTEZ..SHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.GIUM..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BULI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.OSTC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.TAHT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.OSTC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.BULI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.ASK1.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.IBBE..EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.PRA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E096..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.PRA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.IBBE..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E096..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.GIUM..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.ASK2.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.IBBS..EHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.ASK3.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HP.AXS..EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.PRU..SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.ZERL..EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.IBBS..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CAAM..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CAFE..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.ASK4.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- RN.ZERL..SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.ASK5.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.BER.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.VANB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.BJO.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.BJO.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.YAYX..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.UPC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.UPC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CAFL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.BLS1.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.YEDI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.GZR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.YESY..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.VRAC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- CZ.VRAC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.DBG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.DBG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.GZR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.DBG.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- KO.YOZ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.COP.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.COP.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.COP.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.COP.10.BHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- TU.AKHS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.EGD.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- TU.DURS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E104..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.DBG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.DBG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.DBG.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E103..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- TU.ELBA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E103..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KOERI -- waveform -- TU.SART..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E104..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.DY2G.01.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E107..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E105..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E106..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E106..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E105..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.IVI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.IVI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E107..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.MUD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.ICESG.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.JMI.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.JMI.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HP.SERG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.ICESG.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.JMI.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.JNE.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HP.VVK..EHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.JNW.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.ABG1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.ABG1..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.SOEG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.ICOR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.ICOR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.AOS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- DK.SOEG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.KTK1.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.CMBO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E115..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOR1.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOL.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.LAWA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- CL.AGRP.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.LAWA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E115..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOR2.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOR3.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E117..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOR6.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOR4.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CET2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOR5.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E117..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.SOEG.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- EI.DSB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE001..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.MOR7.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.POSS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE002..BHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE003..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.ODD.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.POSS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.SCHD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E119..HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.SCHD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- EI.IDGL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- EI.IGLA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E121..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E121..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E119..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- DK.SOEG.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+BGR -- waveform -- TH.TIEF..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- EI.IGLA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE004..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- EI.IWEX..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CMPO..BHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE007..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CMPO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.OSL.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- EI.VAL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE010..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- FN.MSF..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CMSN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.COLB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE011..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- EI.IGLA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- FN.RNF..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- FN.OUL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- EI.IGLA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- EI.ILTH..BHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE012..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.STOK1.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- FN.SGF..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE014..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.MDVR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.STOK2.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- EI.ILTH..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.APE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- EI.VAL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CPOZ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CPIS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+UIB-NORSAR -- waveform -- NS.TRON.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CPTP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.MDVR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.CSS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CRAC..EHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CRE..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CRE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- G.ECH.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CRTO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.MLR..EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.DSB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CSOB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.OUR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.EIL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.NIS1..HHZ -- No data available for request.
+Detailed response of server:
+
+
+KNMI -- waveform -- NR.NE05..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.CTI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E133..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- CL.ZIRI.01.EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E133..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.DGI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.CLGH..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.DGI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.GVD..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.ECHR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR1..EHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR2..EHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR5..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E135..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR3..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E135..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.ECTS..EHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.EPIT..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR7..EHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR6..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E136..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR8..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E136..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THR9..EHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.ESLN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.ARTF.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.ESLN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NOA -- waveform -- HT.THT2..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.KARP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.KARP..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.KBS.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.ARTF.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.ASEAF.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.KERA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.ASEAF.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.FIR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.EDMD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.EDMD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.MATE..SHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.BLAF.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.BSTF.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E146..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E146..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.PUL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.FROS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E149.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E149.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.GATE..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.SANT..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.GDLE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.CHIF.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.HLM1..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.GATE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.VAL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E158..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E158..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.CREF.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- GE.WLF..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IB.E920..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IB.E920..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.INVG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HE.KAF..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.IOMK..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HE.KEF..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.IFOR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.IOMK..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HE.KIF..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.IOCA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.FNEB.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.FNEB.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.IVPL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.IVPL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HE.SUF..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.IVUG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.IVUG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HE.SUF..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.LBWR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HE.VJF..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.LBWR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.LNSS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.LNSS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HU.CSKK..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.JAUF.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HU.CSKK..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HU.CSKK..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- HU.MORH..HHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.TUDR..EHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- RO.TUDR..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MABI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MABI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MAGA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.BLGI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MC2..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.SWN1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.DSI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.GEM..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.HMDT..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.HNTI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.KRMI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.SWN1..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.KSDI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.KSDI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- UD.AKBB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.WACR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MBRI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMA0..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.MLYF.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GB.WACR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMA1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMA0B..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- UD.KPD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- UD.LUBAR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMA2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- UD.MI28..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMA3..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMA4..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMB1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- UD.MI29..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMB2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+NIEP -- waveform -- UD.MI30..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMB3..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMB4..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMC2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMC1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- IP.PACT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- IP.PACT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.APE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MDI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- LC.CANF.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- LC.CANF.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMC3..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMC4..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.BRNL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMC6..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMC5..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MMC7..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.MZDA..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MDI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.NATI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.CSS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.OFRI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.PRNI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.SLTI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.ZFRI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- IS.YTIR..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.AJLJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A28.281671&endtime=2012-04-11T10%3A58%3A28.281671&network=JS&station=AJLJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:04.365606
+Service Version:
+1.1.1
+GFZ -- waveform -- JS.AQBJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.DAG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- LX.MESJ..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.ASF..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A21.879904&endtime=2012-04-11T10%3A58%3A21.879904&network=JS&station=ASF&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:04.638341
+Service Version:
+1.1.1
+GFZ -- waveform -- JS.AZQJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A21.402059&endtime=2012-04-11T10%3A58%3A21.402059&network=JS&station=AZQJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:04.653331
+Service Version:
+1.1.1
+GFZ -- waveform -- JS.DRHJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.BYRJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A20.863971&endtime=2012-04-11T10%3A58%3A20.863971&network=JS&station=BYRJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:04.733365
+Service Version:
+1.1.1
+ORFEUS -- waveform -- LX.MESJ..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.DSB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- LX.MESJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.HITJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A22.241275&endtime=2012-04-11T10%3A58%3A22.241275&network=JS&station=HITJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:04.964297
+Service Version:
+1.1.1
+GFZ -- waveform -- JS.HSNJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A24.150784&endtime=2012-04-11T10%3A58%3A24.150784&network=JS&station=HSNJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:04.993583
+Service Version:
+1.1.1
+ORFEUS -- waveform -- LX.MESJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.HSUJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A25.280153&endtime=2012-04-11T10%3A58%3A25.280153&network=JS&station=HSUJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:05.05863
+Service Version:
+1.1.1
+GFZ -- waveform -- JS.JDRJ..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A24.684622&endtime=2012-04-11T10%3A58%3A24.684622&network=JS&station=JDRJ&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:05.076675
+Service Version:
+1.1.1
+IRIS -- waveform -- GE.EIL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.KARJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.JUSJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A27.273760&endtime=2012-04-11T10%3A58%3A27.273760&network=JS&station=JUSJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:05.366052
+Service Version:
+1.1.1
+GFZ -- waveform -- JS.QRNJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.LISJ..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A27.319387&endtime=2012-04-11T10%3A58%3A27.319387&network=JS&station=LISJ&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:05.435914
+Service Version:
+1.1.1
+RESIF -- waveform -- FR.OG02.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.GVD..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.SHMJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- JS.SWQJ..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A24.145281&endtime=2012-04-11T10%3A58%3A24.145281&network=JS&station=SWQJ&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:05.704143
+Service Version:
+1.1.1
+GFZ -- waveform -- JS.WALJ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A48%3A26.189037&endtime=2012-04-11T10%3A58%3A26.189037&network=JS&station=WALJ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:05.725063
+Service Version:
+1.1.1
+GFZ -- waveform -- M1.ANAC..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KARN..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KARN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- M1.ANAC..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KARN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MILN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KBS.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KSDI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KSDI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KSDI..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PL.NIE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NL.GUR1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NL.GUR1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PL.OJC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KWP..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.KWP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MMN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.LAST..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.OGSM.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MNO..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.LAST..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MNS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MNS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.LAST..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.MALT..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.MALT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.MALT..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PM.PMOZ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PM.ROSA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PM.ROSA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.MATE..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PZ.BRGZ..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.316522&endtime=2012-04-11T10%3A59%3A18.316522&network=PZ&station=BRGZ&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:09.698009
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.BYZN..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.708223&endtime=2012-04-11T10%3A59%3A18.708223&network=PZ&station=BYZN&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:09.700285
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.EASY..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.717817&endtime=2012-04-11T10%3A59%3A18.717817&network=PZ&station=EASY&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:09.750006
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.FUTB..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.601377&endtime=2012-04-11T10%3A59%3A18.601377&network=PZ&station=FUTB&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:09.983795
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.GARD..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.601641&endtime=2012-04-11T10%3A59%3A18.601641&network=PZ&station=GARD&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.025513
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.HYBL..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.214977&endtime=2012-04-11T10%3A59%3A18.214977&network=PZ&station=HYBL&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.044333
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.MRTI..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A17.986193&endtime=2012-04-11T10%3A59%3A17.986193&network=PZ&station=MRTI&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.100431
+Service Version:
+1.1.1
+ODC -- waveform -- NL.ZLV5.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NL.ZLV5.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PZ.NRTH..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.723007&endtime=2012-04-11T10%3A59%3A18.723007&network=PZ&station=NRTH&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.357195
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.PIER..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.593964&endtime=2012-04-11T10%3A59%3A18.593964&network=PZ&station=PIER&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.372712
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.OILH..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.604743&endtime=2012-04-11T10%3A59%3A18.604743&network=PZ&station=OILH&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.393504
+Service Version:
+1.1.1
+GFZ -- waveform -- PZ.POWD..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.715115&endtime=2012-04-11T10%3A59%3A18.715115&network=PZ&station=POWD&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.441588
+Service Version:
+1.1.1
+IRIS -- waveform -- GE.PUL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.SANT..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.SIVA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE002..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE003..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.SIVA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PZ.SCRP..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.609234&endtime=2012-04-11T10%3A59%3A18.609234&network=PZ&station=SCRP&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.695662
+Service Version:
+1.1.1
+ODC -- waveform -- NR.NE001..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- PZ.SHTH..EHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A18.714415&endtime=2012-04-11T10%3A59%3A18.714415&network=PZ&station=SHTH&location=--&channel=EHZ
+Request Submitted:
+2023-01-18T04:32:10.720711
+Service Version:
+1.1.1
+GFZ -- waveform -- SJ.BBLS..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A03.359710&endtime=2012-04-11T11%3A00%3A03.359710&network=SJ&station=BBLS&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:10.732808
+Service Version:
+1.1.1
+ORFEUS -- waveform -- NR.NE001..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SJ.BEO..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A00.259782&endtime=2012-04-11T11%3A00%3A00.259782&network=SJ&station=BEO&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:10.819149
+Service Version:
+1.1.1
+ORFEUS -- waveform -- NR.NE003..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE004..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE004..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE002..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SJ.FRGS..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A03.245715&endtime=2012-04-11T11%3A00%3A03.245715&network=SJ&station=FRGS&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:11.016322
+Service Version:
+1.1.1
+GFZ -- waveform -- SJ.DJES..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A52.000716&endtime=2012-04-11T10%3A59%3A52.000716&network=SJ&station=DJES&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:11.018382
+Service Version:
+1.1.1
+GFZ -- waveform -- SJ.GRUS..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A58.180966&endtime=2012-04-11T10%3A59%3A58.180966&network=SJ&station=GRUS&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:11.064743
+Service Version:
+1.1.1
+GFZ -- waveform -- SJ.JES..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A00.417260&endtime=2012-04-11T11%3A00%3A00.417260&network=SJ&station=JES&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:11.222679
+Service Version:
+1.1.1
+INGV -- waveform -- IV.MRB1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SJ.SVIS..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A49%3A56.654534&endtime=2012-04-11T10%3A59%3A56.654534&network=SJ&station=SVIS&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:11.381406
+Service Version:
+1.1.1
+GFZ -- waveform -- SJ.SJES..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A01.789585&endtime=2012-04-11T11%3A00%3A01.789585&network=SJ&station=SJES&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:11.383921
+Service Version:
+1.1.1
+IRIS -- waveform -- GE.SIVA..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE007..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.REVF.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE010..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE011..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE007..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE012..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE011..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SK.LANS..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.SUW..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SK.KOLS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE010..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE012..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.SUW..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SK.MODS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE014..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.TIRR.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SK.SRO2..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE014..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- SK.STHS..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.TIRR.00.SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.ABTA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.ABTA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- NR.NE05..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- NR.NE05..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.ARSA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.ARSA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GE.WLF..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GO.CHVG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GO.BGD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.CONA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.CONA.15.BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- GO.LGD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.CONA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.CONA.15.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.CONA.15.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.CONA.51.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.CONA.51.HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.AVE..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.857335&endtime=2012-04-11T11%3A01%3A43.857335&network=WM&station=AVE&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:14.420078
+Service Version:
+1.1.1
+IRIS -- waveform -- GO.SEAG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.CONA.15.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.CONA.51.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.CONA.51.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.CSNA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.CART..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A18.689752&endtime=2012-04-11T11%3A01%3A18.689752&network=WM&station=CART&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:14.773801
+Service Version:
+1.1.1
+IRIS -- waveform -- HL.ITM..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.DAVA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.CEU..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A35.199244&endtime=2012-04-11T11%3A01%3A35.199244&network=WM&station=CEU&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:15.033306
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.CSNA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.CEU..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A35.199244&endtime=2012-04-11T11%3A01%3A35.199244&network=WM&station=CEU&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:15.089021
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.EMAL..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A31.424237&endtime=2012-04-11T11%3A01%3A31.424237&network=WM&station=EMAL&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:15.175804
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.EMAL..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A31.424237&endtime=2012-04-11T11%3A01%3A31.424237&network=WM&station=EMAL&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:15.179453
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.DAVA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.EVO..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.333472&endtime=2012-04-11T11%3A01%3A43.333472&network=WM&station=EVO&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:15.379626
+Service Version:
+1.1.1
+INGV -- waveform -- IV.MTRZ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.MTRZ..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.EMAL..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A31.424237&endtime=2012-04-11T11%3A01%3A31.424237&network=WM&station=EMAL&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:15.411137
+Service Version:
+1.1.1
+IRIS -- waveform -- HL.RDO..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.EVO..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.333472&endtime=2012-04-11T11%3A01%3A43.333472&network=WM&station=EVO&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:15.483254
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.EVO..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.333472&endtime=2012-04-11T11%3A01%3A43.333472&network=WM&station=EVO&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:15.488247
+Service Version:
+1.1.1
+ODC -- waveform -- OE.FETA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- HT.AGG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.IFR..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A35.231770&endtime=2012-04-11T11%3A01%3A35.231770&network=WM&station=IFR&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:15.743224
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.IFR..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A35.231770&endtime=2012-04-11T11%3A01%3A35.231770&network=WM&station=IFR&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:15.757287
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.FETA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.MAHO..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A50%3A59.365102&endtime=2012-04-11T11%3A00%3A59.365102&network=WM&station=MAHO&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:15.823767
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.MELI..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A26.420384&endtime=2012-04-11T11%3A01%3A26.420384&network=WM&station=MELI&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:16.139824
+Service Version:
+1.1.1
+ODC -- waveform -- OE.JAVC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.MELI..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A26.420384&endtime=2012-04-11T11%3A01%3A26.420384&network=WM&station=MELI&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:16.176703
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.PVLZ..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A31.536513&endtime=2012-04-11T11%3A01%3A31.536513&network=WM&station=PVLZ&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:16.190138
+Service Version:
+1.1.1
+ODC -- waveform -- OE.JAVC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.JAVC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.JAVC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- HT.ALN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- WM.UCM..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A25.936031&endtime=2012-04-11T11%3A01%3A25.936031&network=WM&station=UCM&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:16.509943
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.SFS..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A37.972453&endtime=2012-04-11T11%3A01%3A37.972453&network=WM&station=SFS&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:16.516162
+Service Version:
+1.1.1
+GFZ -- waveform -- WM.UCM..BHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A25.936031&endtime=2012-04-11T11%3A01%3A25.936031&network=WM&station=UCM&location=--&channel=BHZ
+Request Submitted:
+2023-01-18T04:32:16.540344
+Service Version:
+1.1.1
+IRIS -- waveform -- HT.FNA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.MOA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- HT.LIT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.KBA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.DOC03..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC03&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:16.841935
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC01..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC01&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:16.873847
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC02..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC02&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:16.885347
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.KBA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.MOA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- HT.LIT..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.DOC04..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC04&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:17.210273
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC05..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC05&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.212391
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC07..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC07&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.214361
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC06..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC06&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.234182
+Service Version:
+1.1.1
+IRIS -- waveform -- HT.LKD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.MOTA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.MOTA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.MYKA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- HT.LKD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.DOC08..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC08&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.51073
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC09..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC09&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.521114
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC10..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC10&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.58124
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC11..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC11&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.596792
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.MYKA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- HT.LKD..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.DOC12..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC12&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.880902
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC13..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC13&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:17.883985
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC15..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC15&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:17.906114
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC14..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC14&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:17.923255
+Service Version:
+1.1.1
+IRIS -- waveform -- HT.SOH..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.OBKA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.DOC17..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC17&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.260467
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC16..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC16&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:18.257788
+Service Version:
+1.1.1
+IRIS -- waveform -- HT.SOH..SHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.DOC18..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC18&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.268774
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC19..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC19&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.284791
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.OBKA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- HU.MORH..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.DOC23..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC23&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.581161
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC21..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC21&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.591666
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC22..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC22&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.615042
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC20..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC20&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.621635
+Service Version:
+1.1.1
+ODC -- waveform -- OE.RETA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.L002..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.371075&endtime=2012-04-11T11%3A01%3A43.371075&network=Y7&station=L002&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:18.935073
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.L003..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.842022&endtime=2012-04-11T11%3A01%3A43.842022&network=Y7&station=L003&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:18.94019
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.DOC24..SHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A38%3A10.530000&endtime=2012-04-11T10%3A48%3A10.530000&network=Y7&station=DOC24&location=--&channel=SHZ
+Request Submitted:
+2023-01-18T04:32:18.948447
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.L001..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A42.950224&endtime=2012-04-11T11%3A01%3A42.950224&network=Y7&station=L001&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:18.956516
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.RETA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.SOKA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.L006..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A42.605628&endtime=2012-04-11T11%3A01%3A42.605628&network=Y7&station=L006&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.331509
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.L007..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A41.887761&endtime=2012-04-11T11%3A01%3A41.887761&network=Y7&station=L007&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.335452
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.L005..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.020646&endtime=2012-04-11T11%3A01%3A43.020646&network=Y7&station=L005&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.338735
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.L008..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A42.836973&endtime=2012-04-11T11%3A01%3A42.836973&network=Y7&station=L008&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.34305
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.SOKA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.SQTA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.L009..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A44.392730&endtime=2012-04-11T11%3A01%3A44.392730&network=Y7&station=L009&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.644492
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.L011..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.148239&endtime=2012-04-11T11%3A01%3A43.148239&network=Y7&station=L011&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.670053
+Service Version:
+1.1.1
+GFZ -- waveform -- Y7.L010..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A42.189050&endtime=2012-04-11T11%3A01%3A42.189050&network=Y7&station=L010&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.673211
+Service Version:
+1.1.1
+ORFEUS -- waveform -- OE.SQTA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+GFZ -- waveform -- Y7.L012..HHZ -- Authentication failed.
+Detailed response of server:
+
+Error 403: Forbidden
+access denied
+Usage details are available from /fdsnws/dataselect/1/
+Request:
+/fdsnws/dataselect/1/query?starttime=2012-04-11T10%3A51%3A43.378069&endtime=2012-04-11T11%3A01%3A43.378069&network=Y7&station=L012&location=--&channel=HHZ
+Request Submitted:
+2023-01-18T04:32:19.724046
+Service Version:
+1.1.1
+ODC -- waveform -- OE.VIE..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.OSKI..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.OSSC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.OSSC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.VIE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.VIE..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.VIE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.WATA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.WATA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.WTTA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.OVO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.WTTA..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- OE.WTTA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- OE.WTTA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.PAOL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.BOJS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.BOJS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.CADS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.SMPL.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.SMPL.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.CADS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.CEY..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.CEY..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.CRES..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.PIGN..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.SMPL.01.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.CRES..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.CRNS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.CRNS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.DOBS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.WLS.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.DOBS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.GBAS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.PRMA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- FR.WLS.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.GBAS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- II.IBFO.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.GBRS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- G.ECH.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.GBRS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.GCIS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- II.KIV.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.GOLS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.GOLS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.GCIS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.GOLS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.PTMD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.PTMD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.GORS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.GOLS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.GORS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- II.LVZ.00.EHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.PZZT..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.GROS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.GROS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.PZZT..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- MT.CLP2.07.EHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.JAVS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.JAVS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- II.RAYN.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.RDP..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.RDP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- RD.MFF..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.KNDS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.KNDS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.KOGS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.RM33..EHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.KOGS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.LEGS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.LEGS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.LEGS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.LEGS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.LJU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.LJU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.ABKAR.FB.SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.MOZS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.MOZS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.PDKS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.RSM2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.PDKS..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.PDKS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.PDKS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.AKASG.FB.BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.ARCES.FB.SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.BURAR.FB.SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.PERS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.PERS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB10..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.ROBS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.ROBS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.SKDS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.SKDS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB3..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB4..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.SAP2..EHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB5..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB6..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.VISS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.VISS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB7..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB8..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR1..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKB9..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.VNDS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.VNDS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR10..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- SL.VOJS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- SL.VOJS..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR4..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR3..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR2..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- TU.ANDN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- TU.ANDN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR6..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR8..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR5..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR7..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- TU.AYDN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.SGTA..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- TU.AYDN..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- TU.BORA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- TU.BORA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.FINES.FB.SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.EKR9..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.ESDC.FB.BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEA0..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEA1..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEA2..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEB1..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEA3..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEB2..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEB5..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEB3..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEB4..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC2..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC1..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC3..SHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- X7.PE18.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC2..SHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.STR4..BHZ -- No data available for request.
+Detailed response of server:
+
+
+INGV -- waveform -- IV.STRG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC4..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC5..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC6..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEC7..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.AAL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.AAL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED1..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED3..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED4..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED2..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.BREU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.BREU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.BREU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.BREU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.DEL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.DEL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED6..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED5..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED7..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED8..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.LANU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.LANU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.NOD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.NOD..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.NOD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.NOD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.NRAU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.NRAU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GERES.FB.SHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.NRAU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.SJUU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GED9..SHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.NRAU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.SJUU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IP.MTOR..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IM.GEYT.FB.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.SJUU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.SJUU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.STRU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.STRU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.STRU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.UPP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.STRU..BHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.UPP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IP.PCAL.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- UP.VIKU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- VI.FAG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- VI.FAG..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- VI.ADA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- VI.ADA..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- UP.VIKU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IU.ANTO.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- VI.ASB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- VI.ASB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- VI.GIL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- VI.GIL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- VI.GOD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ORFEUS -- waveform -- VI.SKR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- VI.GOD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+ODC -- waveform -- VI.SKR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IU.GNI.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IU.KBS.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IU.KEV.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- IU.PAB.10.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- KO.DKL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- KO.ELL..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- KO.GURO..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- X7.PY11B.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- KW.MIB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- KW.MIB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+RESIF -- waveform -- X7.PY26.00.HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- KZ.AKTK..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- LX.CDRO.00.BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- LX.EVOP..SHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- LX.MESJ..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- LX.MESJ..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.AIO..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.AIO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.AQU..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.BLY..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.BLY..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.BNI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.CEL..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.CII..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.CII..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.CLTB..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.CLTB..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.CUC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.IDI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.ISP..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.PDG..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.RTC..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.TIP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.TIR..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.TRI..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.TUE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.VAE..BHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.VLC..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- MN.WDD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.ACOM..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.CGRP..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.CIMO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.CLUD..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.DRE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.FUSE..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.PRED..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.SABO..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NI.ZOU2..HHZ -- No data available for request.
+Detailed response of server:
+
+
+IRIS -- waveform -- NO.AKN..BHZ -- No data available for request.
+Detailed response of server:
+
+

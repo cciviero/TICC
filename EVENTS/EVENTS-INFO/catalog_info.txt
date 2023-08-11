@@ -1,0 +1,80 @@
+Command line:
+-------------
+/home/cciviero/anaconda3/envs/py39/bin/obspyDMT --datapath /sismo1/EUROPE/EVENTS/EVENTS_2 --mag_type=Mw --min_mag 5.0 --min_date 2011-01-01 --max_date 2019-01-01 --station_rect=-50/60/20/80 --data_source=all --cut_time_phase P --preset=300 --offset=300 --waveform_format=sac --cha=BHZ,HHZ,SHZ,EHZ --req_parallel —req_np=10 --reset 
+
+Information about the requested Events:
+
+Number of Events: 16051
+min datetime: 2011-01-01T00:00:00.000000Z
+max datetime: 2019-01-01T00:00:00.000000Z
+min magnitude: 5.0
+max magnitude: 10.0
+min latitude: None
+max latitude: None
+min longitude: None
+max longitude: None
+min depth: -10.0
+max depth: 6000.0
+
+
+=====================================
+Command line:
+-------------
+/home/cciviero/anaconda3/envs/py39/bin/obspyDMT --datapath /sismo1/EUROPE/EVENTS/EVENTS_2 --mag_type=Mw --min_mag 5.0 --min_date 2011-01-01 --max_date 2013-06-12 --station_rect=-50/60/20/80 --data_source=all --cut_time_phase P --preset=300 --offset=300 --waveform_format=sac --cha=BHZ,HHZ,SHZ,EHZ --req_parallel —req_np=10 
+
+Information about the requested Events:
+
+Number of Events: 16051
+min datetime: 2011-01-01T00:00:00.000000Z
+max datetime: 2013-06-12T00:00:00.000000Z
+min magnitude: 5.0
+max magnitude: 10.0
+min latitude: None
+max latitude: None
+min longitude: None
+max longitude: None
+min depth: -10.0
+max depth: 6000.0
+
+
+=====================================
+Command line:
+-------------
+/home/cciviero/anaconda3/envs/py39/bin/obspyDMT --datapath /sismo1/EUROPE/EVENTS/EVENTS_2 --mag_type=Mw --min_mag 5.0 --min_date 2011-01-01 --max_date 2013-06-12 --station_rect=-50/60/20/80 --data_source=all --cut_time_phase P --preset=300 --offset=300 --waveform_format=sac --cha=BHZ,HHZ,SHZ,EHZ --req_parallel —req_np=10 
+
+Information about the requested Events:
+
+Number of Events: 16051
+min datetime: 2011-01-01T00:00:00.000000Z
+max datetime: 2013-06-12T00:00:00.000000Z
+min magnitude: 5.0
+max magnitude: 10.0
+min latitude: None
+max latitude: None
+min longitude: None
+max longitude: None
+min depth: -10.0
+max depth: 6000.0
+
+
+=====================================
+Command line:
+-------------
+/home/cciviero/anaconda3/envs/py39/bin/obspyDMT --datapath /sismo1/EUROPE/EVENTS/EVENTS_2 --mag_type=Mw --min_mag 5.0 --min_date 2011-01-01 --max_date 2013-05-31 --station_rect=-50/60/20/80 --data_source=all --cut_time_phase P --preset=300 --offset=300 --waveform_format=sac --cha=BHZ,HHZ,SHZ,EHZ --req_parallel —req_np=10 
+
+Information about the requested Events:
+
+Number of Events: 16051
+min datetime: 2011-01-01T00:00:00.000000Z
+max datetime: 2013-05-31T00:00:00.000000Z
+min magnitude: 5.0
+max magnitude: 10.0
+min latitude: None
+max latitude: None
+min longitude: None
+max longitude: None
+min depth: -10.0
+max depth: 6000.0
+
+
+=====================================

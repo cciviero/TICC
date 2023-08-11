@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+ <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd" schemaVersion="1.1">
+  <Source>IRIS-DMC</Source>
+  <Sender>IRIS-DMC</Sender>
+  <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.52</Module>
+  <ModuleURI>http://service.iris.edu/fdsnws/station/1/query?starttime=2013-04-19T03%3A09%3A55.694956&amp;endtime=2013-04-19T03%3A19%3A55.694956&amp;network=IU&amp;station=KBS&amp;location=10&amp;channel=HHZ&amp;level=response</ModuleURI>
+  <Created>2023-01-13T03:23:26.1987</Created>
+  <Network code="IU" startDate="1988-01-01T00:00:00.0000" restrictedStatus="open">
+   <Description>Global Seismograph Network - IRIS/USGS (GSN)</Description>
+   <Identifier type="DOI">10.7914/SN/IU
+   </Identifier>
+   <TotalNumberStations>128</TotalNumberStations>
+   <SelectedNumberStations>1</SelectedNumberStations>
+   <Station code="KBS" startDate="1994-11-05T00:00:00.0000" restrictedStatus="open" iris:alternateNetworkCodes="_ARCTIC,_FDSN,_FDSN-ALL,_GLISN,_GSN,_GSN-BROADBAND,_REALTIME,_STS-1,.UNRESTRICTED">
+    <Description>(GSN) IRIS/USGS (IU), GEOFON (GE), AWI, and UB</Description>
+    <Latitude>78.9154</Latitude>
+    <Longitude>11.9385</Longitude>
+    <Elevation>90.0</Elevation>
+    <Site>
+     <Name>Ny-Alesund, Spitzbergen, Norway</Name>
+    </Site>
+    <CreationDate>1994-11-05T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>198</TotalNumberChannels>
+    <SelectedNumberChannels>1</SelectedNumberChannels>
+    <Channel code="HHZ" locationCode="10" startDate="2011-01-20T07:38:59.0000" endDate="2019-03-19T15:23:00.0000" restrictedStatus="open">
+     <Latitude>78.9154</Latitude>
+     <Longitude>11.9385</Longitude>
+     <Elevation>87</Elevation>
+     <Depth>3</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>-90</Dip>
+     <Type>TRIGGERED</Type>
+     <Type>GEOPHYSICAL</Type>
+     <SampleRate>1E02</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Streckeisen STS-2 Standard-gain</Description>
+     </Sensor>
+     <Response>
+     <InstrumentSensitivity>
+       <Value>2.44779E9</Value>
+       <Frequency>0.02</Frequency>
+       <InputUnits>
+         <Name>m/s</Name>
+         <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+     </InstrumentSensitivity>
+      <Stage number="1">
+      <PolesZeros>
+        <InputUnits>
+          <Name>m/s</Name>
+          <Description>Velocity in Meters Per Second</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+        <NormalizationFactor>3.8927E15</NormalizationFactor>
+        <NormalizationFrequency>0.02</NormalizationFrequency>
+        <Zero number="0">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Zero number="1">
+          <Real>0.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Zero number="2">
+          <Real>-8.8083</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Zero number="3">
+          <Real>-171.403</Real>
+          <Imaginary>0.0</Imaginary>
+        </Zero>
+        <Zero number="4">
+          <Real>-453.179</Real>
+          <Imaginary>-459.322</Imaginary>
+        </Zero>
+        <Zero number="5">
+          <Real>-453.179</Real>
+          <Imaginary>459.322</Imaginary>
+        </Zero>
+        <Pole number="0">
+          <Real>-0.0372353</Real>
+          <Imaginary>-0.036656</Imaginary>
+        </Pole>
+        <Pole number="1">
+          <Real>-0.0372353</Real>
+          <Imaginary>0.036656</Imaginary>
+        </Pole>
+        <Pole number="2">
+          <Real>-8.97574</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="3">
+          <Real>-250.578</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="4">
+          <Real>-368.884</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="5">
+          <Real>-78.7969</Real>
+          <Imaginary>-417.701</Imaginary>
+        </Pole>
+        <Pole number="6">
+          <Real>-78.7969</Real>
+          <Imaginary>417.701</Imaginary>
+        </Pole>
+        <Pole number="7">
+          <Real>-522.178</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+        <Pole number="8">
+          <Real>-1133.27</Real>
+          <Imaginary>-1012.72</Imaginary>
+        </Pole>
+        <Pole number="9">
+          <Real>-1133.27</Real>
+          <Imaginary>1012.72</Imaginary>
+        </Pole>
+        <Pole number="10">
+          <Real>-13300.0</Real>
+          <Imaginary>0.0</Imaginary>
+        </Pole>
+      </PolesZeros>
+      <Decimation>
+        <InputSampleRate>100.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1459.0</Value>
+        <Frequency>0.02</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="2">
+      <Coefficients>
+        <InputUnits>
+          <Name>V</Name>
+          <Description>Volts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>100.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1677720.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="3">
+      <Coefficients>
+        <InputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+        <Numerator number="0">1.31549E-11</Numerator>
+        <Numerator number="1">1.50107E-4</Numerator>
+        <Numerator number="2">0.0133968</Numerator>
+        <Numerator number="3">0.164429</Numerator>
+        <Numerator number="4">0.568809</Numerator>
+        <Numerator number="5">0.517383</Numerator>
+        <Numerator number="6">-0.260836</Numerator>
+        <Numerator number="7">-0.122033</Numerator>
+        <Numerator number="8">0.257181</Numerator>
+        <Numerator number="9">-0.202903</Numerator>
+        <Numerator number="10">0.0707588</Numerator>
+        <Numerator number="11">0.0387967</Numerator>
+        <Numerator number="12">-0.114313</Numerator>
+        <Numerator number="13">0.13548</Numerator>
+        <Numerator number="14">-0.111447</Numerator>
+        <Numerator number="15">0.0670548</Numerator>
+        <Numerator number="16">-0.0192712</Numerator>
+        <Numerator number="17">-0.0209313</Numerator>
+        <Numerator number="18">0.0476806</Numerator>
+        <Numerator number="19">-0.0593383</Numerator>
+        <Numerator number="20">0.0575793</Numerator>
+        <Numerator number="21">-0.0462333</Numerator>
+        <Numerator number="22">0.0297771</Numerator>
+        <Numerator number="23">-0.0124829</Numerator>
+        <Numerator number="24">-0.00236608</Numerator>
+        <Numerator number="25">0.0127882</Numerator>
+        <Numerator number="26">-0.0184698</Numerator>
+        <Numerator number="27">0.0187973</Numerator>
+        <Numerator number="28">-0.0171387</Numerator>
+        <Numerator number="29">0.012782</Numerator>
+        <Numerator number="30">-0.00767579</Numerator>
+        <Numerator number="31">0.00325516</Numerator>
+        <Numerator number="32">-8.94756E-5</Numerator>
+        <Numerator number="33">-0.00177876</Numerator>
+        <Numerator number="34">0.00259604</Numerator>
+        <Numerator number="35">-0.00266617</Numerator>
+        <Numerator number="36">0.0023074</Numerator>
+        <Numerator number="37">-0.00177052</Numerator>
+        <Numerator number="38">0.00121864</Numerator>
+        <Numerator number="39">-7.46049E-4</Numerator>
+        <Numerator number="40">3.92175E-4</Numerator>
+        <Numerator number="41">-1.58366E-4</Numerator>
+        <Numerator number="42">2.4378E-5</Numerator>
+        <Numerator number="43">3.80757E-5</Numerator>
+        <Numerator number="44">-5.61805E-5</Numerator>
+        <Numerator number="45">5.15277E-5</Numerator>
+        <Numerator number="46">-3.85647E-5</Numerator>
+        <Numerator number="47">2.53029E-5</Numerator>
+        <Numerator number="48">-1.51246E-5</Numerator>
+        <Numerator number="49">8.7398E-6</Numerator>
+        <Numerator number="50">-4.64812E-6</Numerator>
+        <Numerator number="51">1.37628E-6</Numerator>
+        <Numerator number="52">7.04206E-7</Numerator>
+        <Numerator number="53">2.24187E-7</Numerator>
+        <Numerator number="54">-1.25103E-6</Numerator>
+        <Numerator number="55">1.06677E-7</Numerator>
+        <Numerator number="56">2.64288E-7</Numerator>
+        <Numerator number="57">3.22664E-7</Numerator>
+        <Numerator number="58">-8.07416E-8</Numerator>
+        <Numerator number="59">-1.09905E-7</Numerator>
+        <Numerator number="60">-3.3252E-8</Numerator>
+        <Numerator number="61">1.38851E-8</Numerator>
+        <Numerator number="62">1.05627E-8</Numerator>
+        <Numerator number="63">2.57791E-9</Numerator>
+        <Numerator number="64">-7.01862E-10</Numerator>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>100.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.041607</Delay>
+        <Correction>0.041607</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>1.0</Value>
+        <Frequency>0.0</Frequency>
+      </StageGain>
+
+      </Stage>
+     </Response>
+    </Channel>
+   </Station>
+  </Network>
+ </FDSNStationXML>
