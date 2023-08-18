@@ -25,9 +25,9 @@ import utility_codes as outread
 
 # ------------------- INPUT -----------------------------
 # vertices file name with grid nodes x, y, z
-vertex_file = 'vertices.SEA-SEIS'
+vertex_file = 'vertices.h4'
 # facets file name
-facet_file = 'facets.SEA-SEIS'
+facet_file = 'facets.h4'
 # 1) invert for dlnVp (y/n), estimated parameter sigma (0.01=1% vp anomalies)
 dlnvp = [1, 0.02]
 # 2) dlnVs
@@ -57,26 +57,41 @@ hypocen_corr_depth = [1, 5.0]
 corr_switches = [1, 1, 1, 0]
 # "ident" for output files (mat.ident, out.ident, etc) this is also the ident that you get from 
 # the ray-data-ray-matrix codes
-out_ident = 'ssp'
+out_ident = 'P_eutomo'
 
 # master directory
-add_master_mat = '/mnt/seismodata/MT/SEA-SEIS_TOMO/rdrm/SEA-SEIS_skewed_15.10.2021b'
+# add_master_mat = '/data/maria/global_tomography/tomo_P_Pdiff_NA_UCL/rdrm_PortugueseNationalSeismicNetwork_2009-2013'
+# add_master_mat = '/data/maria/tomography/tomo_ASAP/ass_2023-02-14'
+# add_master_mat = '/data/maria/tomography/P_evolution_ASAP/rdrm_UPFLOW_2021-2022'
+# add_master_mat = '/data/maria/tomography/P_evolution_ASAP/rdrm_NorthAtlantic_2016-2022'
+# add_master_mat = '/data/maria/tomography/P_evolution_ASAP/rdrm_PICASSO_2009-2013'
+# add_master_mat = '/data/maria/tomography/P_evolution_ASAP/rdrm_PortugueseNationalSeismicNetwork_2009-2013'
+# add_master_mat = '/data/maria/tomography/P_evolution_ASAP/ass_ASAP'
+# add_master_mat = '/data/maria/tomography/P_evolution_ASAP/ass_ISC_PdOX'
+# add_master_mat = '/data/maria/tomography/P_evolution_ASAP/ass_ISC_PdOX1-8'
+add_master_mat = '/Volumes/EUROPE_DATA/rdrm_eutomo2012'
 add_list_mat = False
 
 #assembled_dir where to copy the files
 # assembled_dir = os.path.join(add_master_mat, 'assemble_dir')
-assembled_dir = '/mnt/seismodata/MT/SEA-SEIS_TOMO/assmat/SEA-SEIS_skewed_15.10.2021b'
+# assembled_dir = '/data/maria/global_tomography/tomo_P_Pdiff_NA_UCL/ass_PortugueseNationalSeismicNetwork_2009-2013'
+# assembled_dir = '/data/maria/tomography/P_evolution_ASAP/ass_UPFLOW_2021-2022'
+# assembled_dir = '/data/maria/tomography/P_evolution_ASAP/ass_PICASSO_2009-2013/'
+# assembled_dir = '/data/maria/tomography/P_evolution_ASAP/ass_PortugueseNationalSeismicNetwork_2009-2013'
+# assembled_dir = '/data/maria/tomography/P_evolution_ASAP/ass_ISC_PdOX'
+assembled_dir = '/Volumes/EUROPE_DATA/ass_eutomo2012'
 
 run_assemblematrix = True
 do_analysis_plots = True
 # ------------------- END INPUT -----------------------------
 
-print "================ ASSEMBLE MATRIX ===================="
+print("================ ASSEMBLE MATRIX ====================")
 t_start = datetime.datetime.now()
 
 if run_assemblematrix:
+    # import ipdb; ipdb.set_trace()
     if not os.path.isdir(assembled_dir):
-       os.mkdir(assembled_dir)
+       os.makedirs(assembled_dir)
 
     if add_master_mat:
         outread.make_assemble_dir(add_master_mat,
@@ -101,11 +116,11 @@ if run_assemblematrix:
 
     t_run = datetime.datetime.now()
 
-    print '\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
-    print "Time to create/copy the required files: %s" % (t_cr - t_start)
-    print "Time to run: %s" % (t_run - t_cr)
-    print '\nREGULAR END --- %s sec' % (datetime.datetime.now() - t_start)
-    print '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+    print ('\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+    print ("Time to create/copy the required files: %s" % (t_cr - t_start))
+    print ("Time to run: %s" % (t_run - t_cr))
+    print ('\nREGULAR END --- %s sec' % (datetime.datetime.now() - t_start))
+    print ('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
 if do_analysis_plots:
     outread.plot_assemble_dtheor(assembled_dir, out_ident)
@@ -114,4 +129,4 @@ if do_analysis_plots:
     #                                     vertex_file, facet_file)
 
 
-raw_input('\nPlease press enter to finish the program!')
+input('\nPlease press enter to finish the program!')

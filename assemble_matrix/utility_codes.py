@@ -15,7 +15,7 @@
 
 # Required Python modules will be imported in this part.
 
-import ConfigParser
+import configparser
 import glob
 import math as m_math
 import matplotlib.pyplot as plt
@@ -26,7 +26,7 @@ import numpy as np
 from obspy import UTCDateTime
 try:
     from obspy.geodetics import locations2degrees
-except Exception, e:
+except Exception as e:
     from obspy.core.util import locations2degrees
 # from obspy.taup import getTravelTimes
 from obspy.taup import tau
@@ -49,7 +49,7 @@ alpha_plt = 0.1
 
 class InpClass():
     def __init__(self, inp):
-        Config_ini = ConfigParser.ConfigParser()
+        Config_ini = configparser.ConfigParser()
         Config_ini.read(inp)
         # general
         self.plot_statistics = \
@@ -195,7 +195,7 @@ def print_inp(inp, req_band):
 
     if inp.parallel_exec:
         cprint('utility_codes.py', '[INPUT PARALLEL]', bc.green, 'YES')
-        print '#Processes: %s' % inp.np_req
+        print ('#Processes: %s' % inp.np_req)
     else:
         cprint('utility_codes.py', '[INPUT PARALLEL]', bc.green, 'NO')
 
@@ -243,9 +243,9 @@ def event_filter(inp):
             evlat, evlon, catalog_depth, inverted_depth = f_source[3].split()
             try:
                 mrr, mtt, mpp, mrt, mrp, mtp = f_source[13].split()
-            except Exception, e:
-                print 'WARNING: inverted moment tensor was not found: %s' \
-                      % event_adds[i][0]
+            except Exception as e:
+                print ('WARNING: inverted moment tensor was not found: %s' \
+                      % event_adds[i][0])
                 mrr, mtt, mpp, mrt, mrp, mtp = f_source[7].split()
             ev_date = UTCDateTime(year=int(ev_year), julday=int(ev_julianday))
             ev_date_str = '%4s%3s' % (ev_date.year, ev_date.julday)
@@ -261,7 +261,7 @@ def event_filter(inp):
                                           ev_time, ev_id, evlat, evlon,
                                           inverted_depth,
                                           mrr, mtt, mpp, mrt, mrp, mtp])
-        except Exception, e:
+        except Exception as e:
             cprint('utility_codes.py', '[event_filter]', bc.red, 'ERROR: %s' % e)
     # Sort the events by depth and then pass it
     return sorted(passed_event_adds,
@@ -282,13 +282,13 @@ def output_file_reader(evinfo, req_band='band01'):
     empty_array = np.array([])
     if not os.path.isfile(os.path.join(add_output, 'outfiles',
                                        'ffproc.ampstt.%s' % req_band)):
-        print "%s is not found!" % os.path.join(add_output, 'outfiles',
-                                                'ffproc.ampstt.%s' % req_band)
+        print ("%s is not found!" % os.path.join(add_output, 'outfiles',
+                                                'ffproc.ampstt.%s' % req_band))
         return empty_array
     if not os.path.isfile(os.path.join(add_output, 'outfiles',
                                        'ffproc.receivers')):
-        print "%s is not found!" % os.path.join(add_output, 'outfiles',
-                                                'ffproc.receivers')
+        print ("%s is not found!" % os.path.join(add_output, 'outfiles',
+                                                'ffproc.receivers'))
         return empty_array
     # reads always only the default 22 columns, what comes after that does not matter
     rd_output = np.loadtxt(os.path.join(add_output, 'outfiles',
@@ -339,7 +339,7 @@ def array_station_filter(passed_array, inp):
     cprint('utility_codes.py', '%s <= xcorr < %s' % (inp.min_xcorr, inp.max_xcorr), bc.white, '')
     cprint('utility_codes.py', '%s <= epicentral < %s' % (inp.min_epi, inp.max_epi), bc.white, '')
     cprint('utility_codes.py', 'check clip: %s' % inp.check_clip, bc.white, '')
-    print '\n'
+    print ('\n')
 
     cprint('utility_codes.py', '=================================', bc.white, '')
     cprint('utility_codes.py', '#event-station pairs (before): %s' % len(passed_array), bc.white, '')
@@ -383,11 +383,11 @@ def array_fill_in(filt_array, req_band_prev, output_dir):
     srcrcv_previous = \
         np.load(os.path.join(output_dir, 'srcrcv_%s.npy' % req_band_prev))
     srcrcv_id = filt_array[:, 0] + filt_array[:, 26]
-    print 'Length source-receiver pairs (before): %s' % len(filt_array)
+    print ('Length source-receiver pairs (before): %s' % len(filt_array))
     decision = np.in1d(srcrcv_id, srcrcv_previous)
     filt_array = filt_array[decision != True]
     filt_array = np.reshape(filt_array, (-1, 31))
-    print 'Length source-receiver pairs (after): %s' % len(filt_array)
+    print ('Length source-receiver pairs (after): %s' % len(filt_array))
     return filt_array
 
 # ###################### array_fill_in_writer #############################
@@ -435,7 +435,7 @@ def check_selection(filt_array, inp, output_dir):
     :param inp:
     :return:
     """
-    print '\n======>> check the selected event-station pairs'
+    print ('\n======>> check the selected event-station pairs')
     global alpha_plt
 
     if len(filt_array) < 100:
@@ -577,7 +577,7 @@ def plot_sta_ev_unique(sta_info_uniq, sta_info_str_arr, ev_info_uniq,
     :param num_color_grp:
     :return:
     """
-    print 'Plotting events and stations...'
+    print ('Plotting events and stations...')
     plt.ion()
     plt.figure()
     plt.subplot2grid((4, 4), (0, 0), colspan=3, rowspan=3)
@@ -643,8 +643,8 @@ def plot_sta_ev_unique(sta_info_uniq, sta_info_str_arr, ev_info_uniq,
                 sta_color = scalarMap.to_rgba(col_values[14])
             m.scatter(x, y, c=sta_color, edgecolor='none', zorder=40,
                       marker='v', s=100)
-        except Exception, e:
-            print '[exception] in station %s: %s' % (i, e)
+        except Exception as e:
+            print ('[exception] in station %s: %s' % (i, e))
     sta_fio.close()
 
     # EVENTS
@@ -707,8 +707,8 @@ def plot_sta_ev_unique(sta_info_uniq, sta_info_str_arr, ev_info_uniq,
                 ev_color = scalarMap.to_rgba(col_values[14])
             m.scatter(x, y, c=ev_color, edgecolor='none', zorder=40,
                       marker='o', s=100)
-        except Exception, e:
-            print '[exception] in event %s: %s' % (i, e)
+        except Exception as e:
+            print ('[exception] in event %s: %s' % (i, e))
     ev_fio.close()
 
     plt.figure()
@@ -777,10 +777,10 @@ def write_staev_locfile(filt_array, inp, req_band):
     sta_info_uniq = unique_rows(sta_info)
     ev_info_uniq = unique_rows(ev_info)
 
-    print '\n========================'
-    print '#unique stations: %s' % len(sta_info_uniq)
-    print '#unique events  : %s' % len(ev_info_uniq)
-    print '========================'
+    print ('\n========================')
+    print ('#unique stations: %s' % len(sta_info_uniq))
+    print ('#unique events  : %s' % len(ev_info_uniq))
+    print ('========================')
 
     plot_sta_ev_unique(sta_info_uniq, sta_info_str_arr, ev_info_uniq,
                        ev_info_str_arr, inp.phase, inp.input_file_name_part,
@@ -794,11 +794,11 @@ def axi_kernel_receiver_writer(evstas, inp):
     """
     Create AXISEM receiver.dat file for further analysis using AXISEM
     """
-    print '\n======>> Create AXISEM receiver.dat file for Kernel calculations'
+    print ('\n======>> Create AXISEM receiver.dat file for Kernel calculations')
     if not os.path.isdir(os.path.join(inp.out_path, evstas[0, 23, 0])):
         os.mkdir(os.path.join(inp.out_path, evstas[0, 23, 0]))
     else:
-        print 'Directory already exists: %s' % os.path.join(inp.out_path, evstas[0, 23, 0])
+        print ('Directory already exists: %s' % os.path.join(inp.out_path, evstas[0, 23, 0]))
         return
 
     band_period = {'band01': 30.0, 'band02': 21.2, 'band03': 15.0,
@@ -909,9 +909,9 @@ def axi_kernel_receiver_combiner(measure_par_add, measures):
             receiver_all_fio.writelines(ln_all)
         receiver_all_fio.close()
 
-    print '\n================================='
-    print 'WARNING: vp and Z are hard coded!'
-    print '================================='
+    print ('\n=================================')
+    print ('WARNING: vp and Z are hard coded!')
+    print ('=================================')
 
 # ###################### compile_raydata_raymatrix ############################
 
@@ -1097,7 +1097,7 @@ def travel_time_calc(evla, evlo, stla, stlo, evdp, bg_model,
         dist = locations2degrees(evla, evlo, stla, stlo)
         try:
             tt = tau_bg.get_travel_times(evdp, dist, ('Pdiff',))[0].time
-        except Exception, e:
+        except Exception as e:
             tt = False
     else:
         # ----------------------- Java method
@@ -1112,10 +1112,10 @@ def travel_time_calc(evla, evlo, stla, stlo, evdp, bg_model,
         try:
             tt = tt_raw.split('\n')[0].split()[-1]
             tt = float(tt)
-        except Exception, e:
-            print 'Requested phase: Pdiff ... ERROR: %s' % e
-            print 'sta: %s %s' % (stla, stlo)
-            print 'evt: %s %s' % (evla, evlo)
+        except Exception as e:
+            print ('Requested phase: Pdiff ... ERROR: %s' % e)
+            print ('sta: %s %s' % (stla, stlo))
+            print ('evt: %s %s' % (evla, evlo))
             tt = False
     # --------------- END TAUP
     return tt
@@ -1334,7 +1334,7 @@ def raydata_ccorr_reader(filt_array, input_file_name, corr_io_list,
         else:
             indx.append(True)
     filt_array = filt_array[np.array(indx)]
-    print 'Time to load and filter filt_array %s' % (datetime.now() - t1)
+    print ('Time to load and filter filt_array %s' % (datetime.now() - t1))
 
     t1 = datetime.now()
     # all the ray segments present in the definition of the ray
@@ -1379,7 +1379,7 @@ def raydata_ccorr_reader(filt_array, input_file_name, corr_io_list,
                 for j in range(0, divi):
                     t_elev += tar_ccorr_arr[j:len(tar_ccorr_arr):divi, 10]. \
                         astype(np.float)
-    print 'Time to extract correction values %s' % (datetime.now() - t1)
+    print ('Time to extract correction values %s' % (datetime.now() - t1))
 
     sub_ccorr_arr = ccorr_arr[ccorr_arr[:, 0].astype(np.int) == kd_avail[0]]
     t_corr = t_ellip + t_cc + t_elev
@@ -1520,7 +1520,7 @@ def check_par_jobs(jobs, sleep_time=1):
     while pp_flag:
         for proc in jobs:
             if proc.is_alive():
-                print '.',
+                print ('.')
                 # sys.stdout.flush()
                 time.sleep(sleep_time)
                 pp_flag = True
@@ -1528,7 +1528,7 @@ def check_par_jobs(jobs, sleep_time=1):
             else:
                 pp_flag = False
     if not pp_flag:
-        print '\n\nAll %s processes are finished...\n' % len(jobs)
+        print ('\n\nAll %s processes are finished...\n' % len(jobs))
 
 # ###################### mat2asc_run #############################
 
@@ -1626,9 +1626,9 @@ def vtk_generator(inp, req_band, len_dirs):
                        pvtk.PointData(pvtk.Scalars(mat_val_all,
                                                    name='kernel_value')),
                        'Inversion Grid')
-    print '=================='
-    print "WARNING: INDEXING!"
-    print '=================='
+    print ('==================')
+    print ("WARNING: INDEXING!")
+    print ('==================')
     vtk.tofile(os.path.join(
         inp.out_path, '%s_%s.vtk'
                         % (input_file_name.split('_')[0], req_band)))
@@ -1648,19 +1648,19 @@ def vtk_generator_all(direname, vertex_file, facet_file):
     - When describing the cells in terms of point indices, the points must be
     indexed starting at 0.
     """
-    print '\n======>> Creating VTK file'
+    print ('\n======>> Creating VTK file')
     ascii_files = glob.glob(os.path.join(direname, 'ascii.matrixT.*'))
 
-    print '------> Load Vertex file'
+    print ('------> Load Vertex file')
     mesh_points = np.loadtxt(os.path.join(direname, vertex_file),
                              skiprows=2, comments='#')
-    print '------> Load Facet file'
+    print ('------> Load Facet file')
     mesh_facets = np.loadtxt(os.path.join(direname, facet_file),
                              dtype=np.int, skiprows=1, comments='#')
 
     mat_val_all = [0.0]*len(mesh_points)
     for nj in range(len(ascii_files)):
-        print '\n------> create VTK file %s' % ascii_files[nj]
+        print ('\n------> create VTK file %s' % ascii_files[nj])
         fmatrix = open(os.path.join(ascii_files[nj]), 'r')
         fmatrix_r = fmatrix.readlines()
         mat_indx = []
@@ -1693,9 +1693,9 @@ def vtk_generator_all(direname, vertex_file, facet_file):
                        pvtk.PointData(pvtk.Scalars(mat_val_all,
                                                    name='kernel_value')),
                        'Inversion Grid')
-    print '\n\n=================='
-    print "WARNING: INDEXING!"
-    print '=================='
+    print ('\n\n==================')
+    print ("WARNING: INDEXING!")
+    print ('==================')
     vtk.tofile(os.path.join(direname, 'global_all.vtk'))
 
 # ###################### vtk_val_azi #############################
@@ -1723,13 +1723,13 @@ def vtk_val_azi(direname, vertex_file, facet_file):
     facet_file = 'facets.ppdiff_staev_200'
     vtk_val_azi(direname, vertex_file, facet_file)
     """
-    print '\n======>> Creating VTK file'
+    print ('\n======>> Creating VTK file')
     ascii_files = glob.glob(os.path.join(direname, 'ascii.matrixT.*'))
 
-    print '------> Load Vertex file'
+    print ('------> Load Vertex file')
     mesh_points = np.loadtxt(os.path.join(direname, vertex_file),
                              skiprows=2, comments='#')
-    print '------> Load Facet file'
+    print ('------> Load Facet file')
     mesh_facets = np.loadtxt(os.path.join(direname, facet_file),
                              dtype=np.int, skiprows=1, comments='#')
     mesh_points_2 = mesh_points**2
@@ -1739,14 +1739,14 @@ def vtk_val_azi(direname, vertex_file, facet_file):
     mat_azi_qual = np.zeros([len(mesh_points), 4])
     mat_azi_all = {}
     for nj in range(len(ascii_files)):
-        print '\n------> create VTK file %s' % ascii_files[nj]
+        print ('\n------> create VTK file %s' % ascii_files[nj])
         fmatrix = open(os.path.join(ascii_files[nj]), 'r')
         fmatrix_r = fmatrix.readlines()
         mat_indx = []
         mat_val = []
         mat_azi = []
         counter = 0
-        print 'Length of fmatrix_r: %s' % len(fmatrix_r)
+        print ('Length of fmatrix_r: %s' % len(fmatrix_r))
         for j in range(3, len(fmatrix_r)):
             if counter == 0:
                 azi = float(fmatrix_r[j].split()[17])*180./np.pi
@@ -1920,10 +1920,10 @@ def vtk_val_azi(direname, vertex_file, facet_file):
                                                        name='Quality_value')),
                            'Quality check')
     vtk_azi.tofile(os.path.join(direname, 'azi_quality_all.vtk'))
-    print '\n\n=================='
-    print "WARNING: INDEXING!"
-    print '=================='
-    raw_input('Press Enter to quit...')
+    print ('\n\n==================')
+    print ("WARNING: INDEXING!")
+    print ('==================')
+    input('Press Enter to quit...')
 
 # ###################### make_assemble_dir #############################
 
@@ -1957,7 +1957,7 @@ def make_assemble_dir(master_add, target_add, vertex_file, facet_file,
     :return:
     """
 
-    print "moving matrixT.* files...",
+    print ("moving matrixT.* files..."),
     # mat_files_glob = glob.glob(os.path.join(master_add, 'matrixT.*'))
     mat_files_glob = glob.glob(os.path.join(master_add, '*%s*dir' % out_ident, 'matrixT.*'))
     # this if condition is needed if the files are already in the folder and you just want to rerun the assemblematrix
@@ -1968,12 +1968,12 @@ def make_assemble_dir(master_add, target_add, vertex_file, facet_file,
         file_name = os.path.basename(fi)
         try:
             os.rename(fi, os.path.join(target_add, file_name))
-        except Exception, exp:
-            print exp
+        except Exception as exp:
+            print (exp)
             continue
-    print "DONE"
+    print ("DONE")
 
-    print "moving raymatrix.info.T.* files...",
+    print ("moving raymatrix.info.T.* files..."),
     # rayT_files_glob = glob.glob(os.path.join(master_add,
     #                                          'raymatrix.info.T.*'))
     rayT_files_glob = glob.glob(os.path.join(master_add, '*',
@@ -1983,12 +1983,12 @@ def make_assemble_dir(master_add, target_add, vertex_file, facet_file,
         file_name = os.path.basename(fi)
         try:
             os.rename(fi, os.path.join(target_add, file_name))
-        except Exception, exp:
+        except Exception as exp:
             continue
-    print "DONE"
+    print ("DONE")
 
     # import ipdb; ipdb.set_trace()
-    print "copying vertex and facet files..."
+    print ("copying vertex and facet files...")
     try:
         all_dirs = glob.glob(os.path.join(master_add, '*1_dir'))
         cur_vertex_dir = os.path.join(all_dirs[0], vertex_file)
@@ -1999,11 +1999,11 @@ def make_assemble_dir(master_add, target_add, vertex_file, facet_file,
 
         shutil.copy(cur_vertex_dir, new_vertex_dir)
         shutil.copy(cur_facet_dir, new_facet_dir)
-    except Exception, exp:
-        print exp
-    print "DONE"
+    except Exception as exp:
+        print (exp)
+    print ("DONE")
 
-    print "creating the input files...",
+    print ("creating the input files...")
     in_assemble_fio = open(os.path.join(target_add, 'in.am'), 'w')
     in_assemble_fio.writelines('%s\n' % vertex_file)
     in_assemble_fio.writelines('%s\n' % facet_file)
@@ -2027,7 +2027,7 @@ def make_assemble_dir(master_add, target_add, vertex_file, facet_file,
         in_assemble_fio.writelines('%s\n' % os.path.basename(fi))
     in_assemble_fio.writelines('stop')
     in_assemble_fio.close()
-    print "DONE"
+    print ("DONE")
 
 # ###################### compile_assemblematrix #############################
 
@@ -2054,11 +2054,11 @@ def run_assemblematrix(target_add):
     """
     cur_dir = os.path.abspath(os.curdir)
 
-    print '\n======>> run assemblematrix at %s' % target_add
+    print ('\n======>> run assemblematrix at %s' % target_add)
     os.chdir(os.path.join(target_add))
     os_sys = os.system('./assemblematrix < in.am')
     if not os_sys == 0:
-        print 'assemblematrix was not executed correctly!'
+        print ('assemblematrix was not executed correctly!')
 
     os.chdir(cur_dir)
 
@@ -2229,28 +2229,28 @@ def plot_assemble_columndensity(assembled_dir, out_ident,
     :return:
     """
 
-    print '\n======>> Creating VTK file'
+    print ('\n======>> Creating VTK file')
     columnden_files = glob.glob(os.path.join(assembled_dir,
                                              'columndensity.*'))
     if not len(columnden_files) == 1:
         sys.exit("Length of columndensity.* files is more than 1!")
 
-    print '------> Load columndensity file'
+    print ('------> Load columndensity file')
     mesh_points = np.loadtxt(os.path.join(columnden_files[0]),
                              skiprows=2, comments='#')
-    print '------> Load facet file'
+    print ('------> Load facet file')
     mesh_facets = np.loadtxt(os.path.join(assembled_dir, facet_file),
                              dtype=np.int, skiprows=1, comments='#')
 
-    print '------> Writing to the disk'
+    print ('------> Writing to the disk')
     vtk = pvtk.VtkData(pvtk.UnstructuredGrid(mesh_points[:, 0:3],
                                              tetra=mesh_facets),
                        pvtk.PointData(pvtk.Scalars(mesh_points[:, 3],
                                                    name='column_density')),
                        'Inversion Grid')
-    print '\n\n=================='
-    print "WARNING: INDEXING!"
-    print '=================='
+    print ('\n\n==================')
+    print ("WARNING: INDEXING!")
+    print ('==================')
     vtk.tofile(os.path.join(assembled_dir, 'columndensity.vtk'))
 
 # ###################### make_mpisolve #############################
@@ -2277,7 +2277,7 @@ def make_mpisolve(assembled_dir, ident1, ident2,
     :return:
     """
 
-    print "creating the input files...",
+    print ("creating the input files..."),
     in_mpisolve_fio = open(os.path.join(assembled_dir, 'in.solvetomo'), 'w')
     in_mpisolve_fio.writelines('%s\n' % os.path.abspath(assembled_dir))
     in_mpisolve_fio.writelines('%s\n' % ident1)
@@ -2292,7 +2292,7 @@ def make_mpisolve(assembled_dir, ident1, ident2,
     in_mpisolve_fio.writelines('%s\n' % vertex_file)
     in_mpisolve_fio.writelines('%s' % facet_file)
     in_mpisolve_fio.close()
-    print "DONE"
+    print ("DONE")
 
 # ###################### compile_mpisolve #############################
 
@@ -2330,7 +2330,7 @@ def create_slurmfile(target_add, partition, sol_name, ntasks, nodes):
     :return:
     """
 
-    print "creating the slurm file...",
+    print ("creating the slurm file...",)
     """
     #!/bin/bash
     #SBATCH --partition=BIG
@@ -2388,14 +2388,14 @@ def plot_stas_proj(filt_array_corr, inp, plot_results=True, indx=35):
 
     if inp.plot_fixed_median:
         all_mean = inp.plot_fixed_median
-        print "Fixed mean is selected to be: %s" % all_mean
+        print ("Fixed mean is selected to be: %s" % all_mean)
     # 0274.2009.273.a for both P and Pdiff:
     # all_mean = 3.4278005835999998
     # 0224.2009.156.a for both P and Pdiff
     # all_mean = 2.3435461092000001
     if sel_mean:
-        print 'mean based on %s GSN stations: %s vs %s (all data)' % \
-              (len(sel_mean), all_mean, np.mean(filt_array_corr[:, indx]))
+        print ('mean based on %s GSN stations: %s vs %s (all data)' % \
+              (len(sel_mean), all_mean, np.mean(filt_array_corr[:, indx])))
 
     c_plot = filt_array_corr[:, indx] - all_mean
     if plot_results:
@@ -2572,8 +2572,8 @@ def cprint(code, type_info, bc_color, text):
     """
     ho_nam = socket.gethostname().split('.')[0]
 
-    print bc.green + get_time() + bc.end, \
+    print (bc.green + get_time() + bc.end, \
         bc.curs + bc.magenta + ho_nam + bc.end, \
         bc.cyan + code + bc.end, \
         bc.bwhite + type_info + bc.end, \
-        bc_color + text + bc.end
+        bc_color + text + bc.end)

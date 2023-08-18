@@ -25,22 +25,23 @@ compare_tomo = False
 average_tomo = False
 damp_smooth_ratio = False
 
-column_density = True
+column_density = False
 
 # tomo_files = glob.glob('/Users/maria/PhD/RR_RESULTS/P_18.08.2017_evolution/9_ISC_Pdiff_RRall/columndensity.1.ISC_Pdiff_RRall')
 # tomo_files = glob.glob('/mnt/seismodata/MT/SEA-SEIS_TOMO/assmat/SEA-SEIS_13.05.21/columndensity.1.*')
 
 # tomo_files = glob.glob('/mnt/seismodata2/MT/SEA-SEIS/assmat/SEA-SEIS_19.06.2020/columndensity.1.SEA')
-# tomo_files = glob.glob('/mnt/seismodata/MT/PLUME-TOMO/inv_plume_07.04.2021/sd_0.3/solx.*')
+tomo_files = glob.glob('/Volumes/EUROPE_DATA/inv_eutomo2012/sd_0.3/solx.*')
+print (tomo_files)
 # tomo_files = glob.glob('/mnt/seismodata2/MT/RAYTRACER/PPTX_OUTPUT_26082021/blank_modelfiles_01.09.2021/inv_01.09.2021/sd_0.3/solx.*')
-tomo_files = glob.glob('/mnt/seismodata/MT/SEA-SEIS_TOMO/assmat/SEA-SEIS_skewed_15.10.2021b/columndensity.1.ssp')
+# tomo_files = glob.glob('/mnt/seismodata/MT/SEA-SEIS_TOMO/assmat/SEA-SEIS_skewed_15.10.2021b/columndensity.1.ssp')
 
 tomo_files.sort()
 #tomo_files = glob.glob('/Users/maria/PhD/Codes/__TEST_DATA/OUTPUT/rdrm_rrx2/inversion_dir/volume4vtk.txt')
-dir_facet = '/mnt/home_geo/mariat/Codes/TICC/raydata_matrix/pyray_data_matrix/src_raydata_raymatrix/files'
+dir_facet = '/Users/cciviero/Documents/SO_PROJECT/Global_tomography/TICC/TICC-light_chiara/raydata_matrix/pyray_data_matrix/src_raydata_raymatrix/files'
 
-facet_file = 'facets.SEA-SEIS'
-vertex_file = 'vertices.SEA-SEIS'
+facet_file = 'facets.h4'
+vertex_file = 'vertices.h4'
 # -------------------------------------------------------
 
 plt.ion()
