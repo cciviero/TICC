@@ -30,11 +30,10 @@ column_density = False
 # tomo_files = glob.glob('/Users/maria/PhD/RR_RESULTS/P_18.08.2017_evolution/9_ISC_Pdiff_RRall/columndensity.1.ISC_Pdiff_RRall')
 # tomo_files = glob.glob('/mnt/seismodata/MT/SEA-SEIS_TOMO/assmat/SEA-SEIS_13.05.21/columndensity.1.*')
 
-# tomo_files = glob.glob('/mnt/seismodata2/MT/SEA-SEIS/assmat/SEA-SEIS_19.06.2020/columndensity.1.SEA')
+# tomo_files = glob.glob('/data/maria/tomography/tomo_ASAP/res_op2_n0/syn.res_asap')
 tomo_files = glob.glob('/Volumes/EUROPE_DATA/inv_eutomo2012/sd_0.3/solx.*')
-print (tomo_files)
 # tomo_files = glob.glob('/mnt/seismodata2/MT/RAYTRACER/PPTX_OUTPUT_26082021/blank_modelfiles_01.09.2021/inv_01.09.2021/sd_0.3/solx.*')
-# tomo_files = glob.glob('/mnt/seismodata/MT/SEA-SEIS_TOMO/assmat/SEA-SEIS_skewed_15.10.2021b/columndensity.1.ssp')
+# tomo_files = glob.glob('/mnt/seismodata/MT/SEA-SEIS_TOMO/ass/ass_IA_21.10.2021/columndensity.1.iap')
 
 tomo_files.sort()
 #tomo_files = glob.glob('/Users/maria/PhD/Codes/__TEST_DATA/OUTPUT/rdrm_rrx2/inversion_dir/volume4vtk.txt')
@@ -57,18 +56,18 @@ for tomo_file in tomo_files:
         else:
             column_index = 3
 
-        print 'Load vertices and facets files...'
+        print ('Load vertices and facets files...')
         output_file = 'vel_%02i_%s.vtk' % (tomo_counter,
                                            os.path.basename(tomo_file))
         mesh_points = np.loadtxt(os.path.join(dir_facet, vertex_file),
                                  skiprows=2, comments='#')
         mesh_facets = np.loadtxt(os.path.join(dir_facet, facet_file),
-                                 dtype=np.int, skiprows=1, comments='#')
+                                 dtype=int, skiprows=1, comments='#')
 
         fio_tomo = open(tomo_file, 'r')
         fi_tomo = fio_tomo.readlines()
 
-        print 'Reading %s and extract the velocity structure...' % tomo_file
+        print ('Reading %s and extract the velocity structure...' % tomo_file)
 
 
         mat_val_all = []
@@ -80,15 +79,15 @@ for tomo_file in tomo_files:
         # ipdb.set_trace()
 
         if compare_tomo:
-            print 'compare_tomo == True'
+            print ('compare_tomo == True')
             fio_tomo_sub = open(tomo_files[1], 'r')
             fi_tomo_sub = fio_tomo_sub.readlines()
 
             fio_compare = open('text_compare_' + output_file, 'w')
             fio_compare.writelines(fi_tomo_sub[0])
             fio_compare.writelines(fi_tomo_sub[1])
-            print 'Reading %s and extract the velocity structure...' \
-                  % tomo_files[1]
+            print ('Reading %s and extract the velocity structure...' \
+                  % tomo_files[1])
 
             mat_val_all_sub = []
             radiuses = []
@@ -111,26 +110,26 @@ for tomo_file in tomo_files:
             radiuses = np.array(radiuses)
             mat_selected = mat_val_all_sub[radiuses >= 3482]
 
-            print 'converting the data to VTK format....'
+            print ('converting the data to VTK format....')
             vtk = pvtk.VtkData(
                 pvtk.UnstructuredGrid(mesh_points, tetra=mesh_facets),
                 pvtk.PointData(
                     pvtk.Scalars(mat_val_all_sub,
                                  name='%s' % output_file.split('.vtk')[0])),
                 'Velocity Structure')
-            print 'write the VTK file at:\n%s' \
-                  % os.path.join(os.curdir, output_file)
+            print ('write the VTK file at:\n%s' \
+                  % os.path.join(os.curdir, output_file))
             vtk.tofile(os.path.join(os.curdir, 'compare_' + output_file))
             sys.exit('Compare mode is selected...exit!')
 
         if average_tomo:
-            print 'average_tomo == True'
+            print ('average_tomo == True')
             mat_val_all_sub = []
             for av_file in range(1, len(tomo_files)):
                 fio_tomo_sub = open(tomo_files[av_file], 'r')
                 fi_tomo_sub = fio_tomo_sub.readlines()
-                print 'Reading %s and extract the velocity structure...' \
-                      % tomo_files[1]
+                print('Reading %s and extract the velocity structure...' \
+                      % tomo_files[1])
                 for fi_line in range(2, len(fi_tomo_sub)):
                     if av_file == 1:
                         mat_val_all_sub.append(
@@ -140,28 +139,28 @@ for tomo_file in tomo_files:
                         mat_val_all_sub[fi_line - 2] += \
                             float(fi_tomo_sub[fi_line].split()[3])
             mat_val_all_sub = np.array(mat_val_all_sub)/len(tomo_files)
-            print 'converting the data to VTK format....'
+            print ('converting the data to VTK format....')
             vtk = pvtk.VtkData(
                 pvtk.UnstructuredGrid(mesh_points, tetra=mesh_facets),
                 pvtk.PointData(
                     pvtk.Scalars(mat_val_all_sub,
                                  name='%s' % output_file.split('.vtk')[0])),
                 'Velocity Structure')
-            print 'write the VTK file at:\n%s' \
-                  % os.path.join(os.curdir, output_file)
+            print ('write the VTK file at:\n%s' \
+                  % os.path.join(os.curdir, output_file))
             vtk.tofile(os.path.join(os.curdir, 'compare_' + output_file))
             sys.exit('Average mode is selected...exit!')
 
-        print 'converting the data to VTK format....'
+        print ('converting the data to VTK format....')
         vtk = pvtk.VtkData(
             pvtk.UnstructuredGrid(mesh_points, tetra=mesh_facets),
             pvtk.PointData(pvtk.Scalars(
                 mat_val_all,
                 name='%s' % output_file.split('.vtk')[0])),
             'Velocity Structure')
-        print 'write the VTK file at:\n%s' \
-              % os.path.join(os.path.dirname(tomo_file), output_file)
+        print ('write the VTK file at:\n%s' \
+              % os.path.join(os.path.dirname(tomo_file), output_file))
         vtk.tofile(os.path.join(os.path.dirname(tomo_file), output_file))
         tomo_counter += 1
 
-print 'DONE!'
+print ('DONE!')

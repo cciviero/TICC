@@ -39,11 +39,13 @@ max_trade = 11
 
 # path = glob.glob('/Volumes/AB_EXTRA/2017_inversions/grid_iter4/PPdiPP_OX_LMU_ISC_RRP_L_0_3/rsync_me')
 
-path = glob.glob('/mnt/seismodata2/MT/RAYTRACER/TEST_OUTPUT/TESTME_modelfiles_12.08.2021/inv_12.08.2021/sd_0.3')
+# path = glob.glob('/data/maria/tomography/P_evolution_ASAP/inv_ISC_PdOX/sd_0.3')
+path = glob.glob('/Volumes/EUROPE_DATA/inv_eutomo2012/sd_0.3')
 path.sort()
-print path
+print (path)
 
 tradeoffs_name = ['0.3']
+# tradeoffs_name = ['0.7']
 # tradeoffs_name  = ['crust1', 'crust1+', 'crust2']
 # tradeoffs_name = ['0.3', '0.5', '0.7', '0.9', '1.2']
 # tradeoffs_name = ['0.3 - no corr', '0.3 - *2', '0.3 - *0.1', '1.0 - *0.1', '0.3 - *0.3', '1.0 - *0.3', '1.0 - *0.5']
@@ -86,10 +88,9 @@ vp_binsrange = [-0.03, 0.03]  # boundaries for the bins
 
 # 4th plot: various corrections
 
-
 # 5th plot: residuals
-nrow = 4440585  # make sure you check this value in e.g diagnostics.so02.08.201
-# nrow = 11666570
+plot_res = True
+nrow = 397879  # make sure you check this value in e.g diagnostics.XXX
 res_binsbin = 61
 res_binsrange = [-5, 5]
 
@@ -99,7 +100,7 @@ plt.ioff()
 plt.figure(figsize=(15, 10))
 
 for j, tradeoff in enumerate(path):
-    print "%s -- %s" % (j, tradeoff)
+    print ("%s -- %s" % (j, tradeoff))
     xytradeoff = glob.glob(os.path.join(tradeoff, 'xy.tradeoff.*'))
     # import ipdb; ipdb.set_trace()
     xytradeoff_name = xytradeoff[0].split('.')[-1]
@@ -136,18 +137,18 @@ plt.savefig(os.path.join(output_dir, 'L_curve.png'))
 # ------------------- 2nd Plot -----------------------------
 plt.figure(figsize=(15, 10))
 for j, tradeoff in enumerate(path):
-    print "%s -- %s" % (j, tradeoff)
+    print ("%s -- %s" % (j, tradeoff))
     texsolve = glob.glob(os.path.join(tradeoff, 'tex.solve.*'))
     texsolve_name = texsolve[0].split('.')[-1]
     troff_arr = np.loadtxt(os.path.join(tradeoff,
                                         'tex.solve.%s' % texsolve_name),
                            skiprows=7, usecols=(0, 1, 2, 3, 4, 5, 6), dtype='object')
-    plt.plot(troff_arr[min_trade:max_trade, 2].astype(np.float),
-             troff_arr[min_trade:max_trade, 4].astype(np.float) * dpar * 100,
+    plt.plot(troff_arr[min_trade:max_trade, 2].astype(float),
+             troff_arr[min_trade:max_trade, 4].astype(float) * dpar * 100,
              lw=3, color=colors[j], ls=line_styles[j],
              label=tradeoffs_name[j])
-    plt.scatter(troff_arr[min_trade:max_trade, 2].astype(np.float),
-                troff_arr[min_trade:max_trade, 4].astype(np.float) * dpar * 100,
+    plt.scatter(troff_arr[min_trade:max_trade, 2].astype(float),
+                troff_arr[min_trade:max_trade, 4].astype(float) * dpar * 100,
                 lw=3, color=colors[j])
     plt.axvline(1, 0, 1, c='k', ls='--', lw=1)
     for i in range(min_trade, min_trade + len(troff_arr[min_trade:max_trade, 1])):
@@ -172,7 +173,7 @@ bins_bin = vp_binsbin
 sol_path = glob.glob(os.path.join(path[0], 'solx.*'))
 
 for i, spath in enumerate(sol_path[::-1]):
-    print 'Working on dVp/Vp'
+    print ('Working on dVp/Vp')
     plt.figure(figsize=(15, 10))
     dvpvp = np.loadtxt(spath, usecols=(3,), dtype=float, skiprows=2)
 
@@ -237,7 +238,7 @@ for i, cpath in enumerate(cor_path[::-1]):
 
         if jval > 0:
 
-            print 'Working on: %s' % plot_names[j]
+            print ('Working on: %s' % plot_names[j])
             corr_list = values[:l4[j]]
             corr_value = l3[j]
 
@@ -264,110 +265,111 @@ for i, cpath in enumerate(cor_path[::-1]):
             if i == 0:
                 ylimits.append(0)
 
-print ylimits
-print 'DONE!'
+print (ylimits)
+print ('DONE!')
 
 # ------------------- 5th Plot -----------------------------
+if plot_res:
 
-bins_bin = res_binsbin
+    bins_bin = res_binsbin
 
-res_path = glob.glob(os.path.join(path[0], 'res.*'))
+    res_path = glob.glob(os.path.join(path[0], 'res.*'))
 
-cur_dir = os.getcwd()
+    cur_dir = os.getcwd()
 
-os.chdir(glob.glob(os.path.join(path[0]))[0])
-os.chdir('..')
-path2inverion = os.getcwd()
-aux_path = glob.glob(os.path.join(path2inverion, 'aux.*'))
-# aux_path = glob.glob('aux.*')
-# import ipdb; ipdb.set_trace()
-with open(aux_path[0]) as f_input:
-    aux_bands = np.loadtxt(itertools.islice(f_input, 0, nrow), usecols=(9,), dtype=int)
+    os.chdir(glob.glob(os.path.join(path[0]))[0])
+    os.chdir('..')
+    path2inverion = os.getcwd()
+    aux_path = glob.glob(os.path.join(path2inverion, 'aux.*'))
+    # aux_path = glob.glob('aux.*')
+    # import ipdb; ipdb.set_trace()
+    with open(aux_path[0]) as f_input:
+        aux_bands = np.loadtxt(itertools.islice(f_input, 0, nrow), usecols=(9,), dtype=int)
 
-os.chdir(cur_dir)
-# import ipdb; ipdb.set_trace()
-set_aux_bands = set(aux_bands)
-nr_bands = len(set_aux_bands)
-cmap = plt.get_cmap('jet_r')
-colors = cmap(np.linspace(0, 1.0, nr_bands))
+    os.chdir(cur_dir)
+    # import ipdb; ipdb.set_trace()
+    set_aux_bands = set(aux_bands)
+    nr_bands = len(set_aux_bands)
+    cmap = plt.get_cmap('jet_r')
+    colors = cmap(np.linspace(0, 1.0, nr_bands))
 
-max_list = []
-for i, rpath in enumerate(res_path):
-    print 'working on:', rpath
-    plt.figure(figsize=(15, 10))
-    for j, band in enumerate(set_aux_bands):
-        # plot band0/ISC data separately
-        if band == 0:
-            plt.figure(figsize=(15, 10))
-            filter_list = aux_bands == band
-            values = np.loadtxt(rpath, usecols=(0,), dtype=float)
+    max_list = []
+    for i, rpath in enumerate(res_path):
+        print ('working on:', rpath)
+        plt.figure(figsize=(15, 10))
+        for j, band in enumerate(set_aux_bands):
+            # plot band0/ISC data separately
+            if band == 0:
+                plt.figure(figsize=(15, 10))
+                filter_list = aux_bands == band
+                values = np.loadtxt(rpath, usecols=(0,), dtype=float)
 
-            try:
-                filtered_values = values[filter_list]
-                bins_range = res_binsrange
-            except Exception, exp:
-                print 'Ups:', exp
-                import ipdb;
+                try:
+                    filtered_values = values[filter_list]
+                    bins_range = res_binsrange
+                except Exception as exp:
+                    print ('Ups:', exp)
+                    import ipdb;
 
-                ipdb.set_trace()
+                    ipdb.set_trace()
 
-            hist, bins = np.histogram(filtered_values, bins=bins_bin, range=bins_range)
-            width = 0.7 * (bins[1] - bins[0])
-            center = (bins[:-1] + bins[1:]) / 2
-            plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
-            plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
+                hist, bins = np.histogram(filtered_values, bins=bins_bin, range=bins_range)
+                width = 0.7 * (bins[1] - bins[0])
+                center = (bins[:-1] + bins[1:]) / 2
+                plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
+                plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
 
-            trade_nr = trade_range[i] + 1
+                trade_nr = trade_range[i] + 1
 
-            plt.bar(center, hist, align='center', width=width, color=colors[j],
-                    label='band0%s' % (band), alpha=0.6)
-            plt.title('data resuduals d-A*m', weight='bold', size=12)
-            plt.xlabel('res [sec]', weight='bold')
-            plt.legend()
+                plt.bar(center, hist, align='center', width=width, color=colors[j],
+                        label='band0%s' % (band), alpha=0.6)
+                plt.title('data resuduals d-A*m', weight='bold', size=12)
+                plt.xlabel('res [sec]', weight='bold')
+                plt.legend()
 
-            # plt.xlim(-dpar - 0.8*dpar, dpar + 0.8*dpar)
-            # max_list.append(np.max(hist))
-            # print max_list
-            if j == 0 and i == 0:
-                ylim_value_0 = np.max(hist)
-            plt.ylim(0, ylim_value_0)
-            plt.savefig(os.path.join(output_dir, 'res_B0_%s' % trade_nr))
-            plt.clf()
+                # plt.xlim(-dpar - 0.8*dpar, dpar + 0.8*dpar)
+                # max_list.append(np.max(hist))
+                # print max_list
+                if j == 0 and i == 0:
+                    ylim_value_0 = np.max(hist)
+                plt.ylim(0, ylim_value_0)
+                plt.savefig(os.path.join(output_dir, 'res_B0_%s' % trade_nr))
+                plt.clf()
 
-        else:
-            filter_list = aux_bands == band
-            values = np.loadtxt(rpath, usecols=(0,), dtype=float)
+            else:
+                filter_list = aux_bands == band
+                values = np.loadtxt(rpath, usecols=(0,), dtype=float)
 
-            try:
-                filtered_values = values[filter_list]
-                bins_range = res_binsrange
-            except Exception, exp:
-                print 'Ups:', exp
-                import ipdb;
+                try:
+                    filtered_values = values[filter_list]
+                    bins_range = res_binsrange
+                except Exception as exp:
+                    print ('Ups:', exp)
+                    import ipdb;
 
-                ipdb.set_trace()
+                    ipdb.set_trace()
 
-            hist, bins = np.histogram(filtered_values, bins=bins_bin, range=bins_range)
-            width = 0.7 * (bins[1] - bins[0])
-            center = (bins[:-1] + bins[1:]) / 2
-            plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
-            plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
+                hist, bins = np.histogram(filtered_values, bins=bins_bin, range=bins_range)
+                width = 0.7 * (bins[1] - bins[0])
+                center = (bins[:-1] + bins[1:]) / 2
+                plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
+                plt.axvline(dpar, 0, 1, c='r', ls='--', lw=2)
 
-            trade_nr = trade_range[i] + 1
+                trade_nr = trade_range[i] + 1
 
-            plt.bar(center, hist, align='center', width=width, color=colors[j],
-                    label='band0%s' % (band), alpha=0.6)
-            plt.title('data resuduals d-A*m', weight='bold', size=12)
-            plt.xlabel('res [sec]', weight='bold')
-            plt.legend()
+                plt.bar(center, hist, align='center', width=width, color=colors[j],
+                        label='band0%s' % (band), alpha=0.6)
+                plt.title('data resuduals d-A*m', weight='bold', size=12)
+                plt.xlabel('res [sec]', weight='bold')
+                plt.legend()
 
-            # plt.xlim(-dpar - 0.8*dpar, dpar + 0.8*dpar)
-            # max_list.append(np.max(hist))
-            # print max_list
-            if j == 1 and i == 0:
-                ylim_value = np.max(hist)
-            plt.ylim(0, ylim_value)
-    plt.savefig(os.path.join(output_dir, 'res_B_%s' % trade_nr))
+                # plt.xlim(-dpar - 0.8*dpar, dpar + 0.8*dpar)
+                # max_list.append(np.max(hist))
+                # print max_list
+                if j == 1 and i == 0:
+                    ylim_value = np.max(hist)
+                plt.ylim(0, ylim_value)
+        plt.savefig(os.path.join(output_dir, 'res_B_%s' % trade_nr))
 
-print 'Done...'
+print ('Done...')
 
