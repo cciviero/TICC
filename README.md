@@ -11,6 +11,11 @@ This folder contains codes that one needs for the finite frequency inversion pro
 **Not** in this folder is **obspyDMT**, or a code of your choice to download/organise a database for processing.
 **Not** in this folder are **Karins STF codes**.
 
+N.B.! While installing all the packages remember to:
+1) create a new environment with python 3.8 installed
+2) start with main package instaseis: conda install instaseis
+3) start downloading all the other
+
 Order of running the codes:
 
 * [get database, eg. download data with obspyDMT]
